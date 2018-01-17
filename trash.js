@@ -1,2 +1,2 @@
 var rimraf = require('rimraf');
-rimraf('public/files/**', function () { console.log('done'); });
+rimraf('public/files/', [rmdir], function () { console.log('done'); });
