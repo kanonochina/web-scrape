@@ -1,0 +1,1417 @@
+<!DOCTYPE html><html lang="fil" data-cast-api-enabled="true"><head><style name="www-roboto">@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(fonts/1UHKSaO0Ug_iwZFTea-I6_esZW2xOQ-xsNqO47m55DA.woff)format('woff');unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(fonts/q3F_9Y6Hs8VM7gyEeeSknPesZW2xOQ-xsNqO47m55DA.woff)format('woff');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(fonts/5isuFBHOM2SlH9wfDsben_esZW2xOQ-xsNqO47m55DA.woff)format('woff');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(fonts/qKqSlf3v29wQlNwsX_CCkvesZW2xOQ-xsNqO47m55DA.woff)format('woff');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(fonts/D-JGSMHGNnVLHePcmrjNPvesZW2xOQ-xsNqO47m55DA.woff)format('woff');unicode-range:U+0102-0103,U+1EA0-1EF9,U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(fonts/Tc9XRlrDsZTs7kTIC1vz2fesZW2xOQ-xsNqO47m55DA.woff)format('woff');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(fonts/2UX7WLTfW3W8TclTUvlFyQ.woff)format('woff');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(fonts/ZLqKeelYbATG60EpZBSDy9j00qvwa7FIWVKDOymo9DA.woff)format('woff');unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(fonts/oHi30kwQWvpCWqAhzHcCSNj00qvwa7FIWVKDOymo9DA.woff)format('woff');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(fonts/rGvHdJnr2l75qb0YND9NyNj00qvwa7FIWVKDOymo9DA.woff)format('woff');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(fonts/mx9Uck6uB63VIKFYnEMXrdj00qvwa7FIWVKDOymo9DA.woff)format('woff');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(fonts/mbmhprMH69Zi6eEPBYVFhdj00qvwa7FIWVKDOymo9DA.woff)format('woff');unicode-range:U+0102-0103,U+1EA0-1EF9,U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(fonts/oOeFwZNlrTefzLYmlVV1UNj00qvwa7FIWVKDOymo9DA.woff)format('woff');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(fonts/RxZJdnzeo3R5zSexge8UUT8E0i7KZn-EPnyo3HZu7kw.woff)format('woff');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(fonts/XTdxXLfto4uJ-PvZd_wImhTbgVql8nDJpwnrE27mub0.woff)format('woff');unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(fonts/m1uAalIytmLBFXF3PwhxpBTbgVql8nDJpwnrE27mub0.woff)format('woff');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(fonts/BzPrQn1Y6NQh1hZkHstkBhTbgVql8nDJpwnrE27mub0.woff)format('woff');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(fonts/i0Up8OwuR1OCkHxm4iiTTBTbgVql8nDJpwnrE27mub0.woff)format('woff');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(fonts/siQR0c1plrd8i43rIfDOFRTbgVql8nDJpwnrE27mub0.woff)format('woff');unicode-range:U+0102-0103,U+1EA0-1EF9,U+20AB;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(fonts/dFWsweFqlD8ExfyN7Gh_GBTbgVql8nDJpwnrE27mub0.woff)format('woff');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(fonts/1pO9eUAp8pSF8VnRTP3xnvesZW2xOQ-xsNqO47m55DA.woff)format('woff');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215;}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(fonts/OLffGBTaF0XFOW1gnuHF0dWzAZO5jzmKMLdhXX0jjfM.woff)format('woff');unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F;}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(fonts/OLffGBTaF0XFOW1gnuHF0T7SM4dOitRzhyCJHm9GmZM.woff)format('woff');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(fonts/OLffGBTaF0XFOW1gnuHF0Yz27WKZd5lTmW0ifk83oiA.woff)format('woff');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(fonts/OLffGBTaF0XFOW1gnuHF0SQaIQS7eoe2Q76iOM-E-qU.woff)format('woff');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(fonts/OLffGBTaF0XFOW1gnuHF0TCQWan45qKFhfRgp1pUqvI.woff)format('woff');unicode-range:U+0102-0103,U+1EA0-1EF9,U+20AB;}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(fonts/OLffGBTaF0XFOW1gnuHF0bMPoRk_aKrNhuQzzXSNQmU.woff)format('woff');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(fonts/OLffGBTaF0XFOW1gnuHF0YbN6UDyHWBl620a-IRfuBk.woff)format('woff');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215;}</style><script name="www-roboto">if (document.fonts && document.fonts.load) {document.fonts.load("400 10pt Roboto", "F");document.fonts.load("500 10pt Roboto", "F");}</script><script>var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},info: {}});},now: window.performance && window.performance.timing &&window.performance.now ? function() {return window.performance.timing.navigationStart + window.performance.now();} : function() {return (new Date()).getTime();},tick: function(l, t, n) {ticks = ytcsi.gt(n).tick;var v = t || ytcsi.now();if (ticks[l]) {ticks['_' + l] = (ticks['_' + l] || [ticks[l]]);ticks['_' + l].push(v);}ticks[l] = v;},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;},setStart: function(s, t, n) {ytcsi.info('yt_sts', s, n);ytcsi.tick('_start', t, n);}};(function(w, d) {ytcsi.setStart('dhs', w.performance ? w.performance.timing.responseStart : null);var isPrerender = (d.visibilityState || d.webkitVisibilityState) == 'prerender';var vName = d.webkitVisibilityState ? 'webkitvisibilitychange' : 'visibilitychange';if (isPrerender) {ytcsi.info('prerender', 1);var startTick = function() {ytcsi.setStart('dhs');d.removeEventListener(vName, startTick);};d.addEventListener(vName, startTick, false);}if (d.addEventListener) {d.addEventListener(vName, function() {ytcsi.tick('vc');}, false);}var slt = function(el, t) {setTimeout(function() {var n = ytcsi.now();el.loadTime = n;if (el.slt) {el.slt();}}, t);};w.__ytRIL = function(el) {if (!el.getAttribute('data-thumb')) {if (w.requestAnimationFrame) {w.requestAnimationFrame(function() {slt(el, 0);});} else {slt(el, 16);}}};})(window, document);</script><script>var ytcfg = {d: function() {return (window.yt && yt.config_) || ytcfg.data_ || (ytcfg.data_ = {});},get: function(k, o) {return (k in ytcfg.d()) ? ytcfg.d()[k] : o;},set: function() {var a = arguments;if (a.length > 1) {ytcfg.d()[a[0]] = a[1];} else {for (var k in a[0]) {ytcfg.d()[k] = a[0][k];}}}};</script>  <script>ytcfg.set("ROOT_VE_TYPE", 3832);ytcfg.set("EVENT_ID", "R6PoWeLyB5K_qQG3x6GIDw");</script>
+  <script>ytcfg.set("EXP_HTML5_SERVERSIDE_PAGEAD_ID_SETS_COOKIE", false);ytcfg.set("LACT", null);</script>
+<script>window.yterr = window.yterr || true;</script>  
+
+
+
+
+  <script>
+        (function(){var b={a:"content-snap-width-1",b:"content-snap-width-2",c:"content-snap-width-3"};function f(){var a=[],c;for(c in b)a.push(b[c]);return a}
+function h(a){var c=f().concat(["guide-pinned","show-guide"]),e=c.length,g=[];a.replace(/\S+/g,function(a){for(var d=0;d<e;d++)if(a==c[d])return;g.push(a)});
+return g}
+;function k(a,c,e){var g=document.getElementsByTagName("html")[0],d=h(g.className);a&&1251<=(window.innerWidth||document.documentElement.clientWidth)&&(d.push("guide-pinned"),c&&d.push("show-guide"));e&&(e=(window.innerWidth||document.documentElement.clientWidth)-21-50,1251<=(window.innerWidth||document.documentElement.clientWidth)&&a&&c&&(e-=230),d.push(1262<=e?"content-snap-width-3":1056<=e?"content-snap-width-2":"content-snap-width-1"));g.className=d.join(" ")}
+var l=["yt","www","masthead","sizing","runBeforeBodyIsReady"],m=this;l[0]in m||!m.execScript||m.execScript("var "+l[0]);for(var n;l.length&&(n=l.shift());)l.length||void 0===k?m[n]&&m[n]!==Object.prototype[n]?m=m[n]:m=m[n]={}:m[n]=k;}).call(this);
+
+      try {window.ytbuffer = {};ytbuffer.handleClick = function(e) {var element = e.target || e.srcElement;while (element.parentElement) {if (/(^| )yt-can-buffer( |$)/.test(element.className)) {window.ytbuffer = {bufferedClick: e};element.className += ' yt-is-buffered';break;}element = element.parentElement;}};if (document.addEventListener) {document.addEventListener('click', ytbuffer.handleClick);} else {document.attachEvent('onclick', ytbuffer.handleClick);}} catch(e) {}
+
+    yt.www.masthead.sizing.runBeforeBodyIsReady(false,false,true);
+  </script>
+
+      <script src="js/scheduler.js" type="text/javascript" name="scheduler/scheduler"></script>
+
+
+    <script>var ytimg = {};ytimg.count = 1;ytimg.preload = function(src) {var img = new Image();var count = ++ytimg.count;ytimg[count] = img;img.onload = img.onerror = function() {delete ytimg[count];};img.src = src;};</script>
+
+
+      <script src="js/www-pagead-id.js" type="text/javascript" name="www-pagead-id/www-pagead-id" async></script>
+
+      <script src="js/base_1.js" name="player/base"></script>
+
+
+
+  <link rel="stylesheet" href="css/www-core-webp-vflI28DKd.css" name="www-core">
+  <link rel="stylesheet" href="css/www-spacecast-webp-vflvydAHe.css" name="www-spacecast">
+      <link rel="stylesheet" href="css/www-player-webp.css" name="player/www-player">
+
+  <link rel="stylesheet" href="css/www-pageframe-webp-vflO5yhEW.css" name="www-pageframe">
+      <script>ytimg.preload("https:\/\/r4---sn-2aqu-hoaed.googlevideo.com\/generate_204?conn2");ytimg.preload("https:\/\/r4---sn-2aqu-hoaed.googlevideo.com\/generate_204");</script>
+
+<title>2013 Bugatti Veyron 16.4 Grand Sport Vitesse Commercial - Carjam TV Car Show 2013 - YouTube</title><link rel="canonical" href="https://www.youtube.com/watch?v=jRiQX9TsiyQ"><link rel="alternate" media="handheld" href="https://m.youtube.com/watch?v=jRiQX9TsiyQ"><link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.youtube.com/watch?v=jRiQX9TsiyQ">      <meta name="title" content="2013 Bugatti Veyron 16.4 Grand Sport Vitesse Commercial - Carjam TV Car Show 2013">
+
+      <meta name="description" content="CARJAM TV - Subscribe Here Now http://www.youtube.com/carjamradio Like Us Now On Facebook: http://www.facebook.com/CarjamTV For The World&#39;s Best Car Videos W...">
+
+      <meta name="keywords" content="CARJAM TV, Carjam Car TV Show, Television show about cars, english car tv show, New car tv show, automotive tv show, best car shows tv, carjam, car talk, RTE...">
+
+<link rel="manifest" href="/manifest.json"><link rel="shortlink" href="https://youtu.be/jRiQX9TsiyQ"><link rel="search" type="application/opensearchdescription+xml" href="https://www.youtube.com/opensearch?locale=fil_PH" title="Paghahanap ng Video sa YouTube"><link rel="shortcut icon" href="favicon-vfl8qSV2F.ico" type="image/x-icon">     <link rel="icon" href="images/favicon_32-vflOogEID.png" sizes="32x32"><link rel="icon" href="images/favicon_48-vflVjB_Qk.png" sizes="48x48"><link rel="icon" href="images/favicon_96-vflW9Ec0w.png" sizes="96x96"><link rel="icon" href="images/favicon_144-vfliLAfaB.png" sizes="144x144"><meta name="theme-color" content="#ff0000">        <link rel="alternate" href="android-app://com.google.android.youtube/http/www.youtube.com/watch?v=jRiQX9TsiyQ">
+    <link rel="alternate" href="ios-app://544007664/vnd.youtube/www.youtube.com/watch?v=jRiQX9TsiyQ">
+
+      <link rel="alternate" type="application/json+oembed" href="http://www.youtube.com/oembed?format=json&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DjRiQX9TsiyQ" title="2013 Bugatti Veyron 16.4 Grand Sport Vitesse Commercial - Carjam TV Car Show 2013">
+  <link rel="alternate" type="text/xml+oembed" href="http://www.youtube.com/oembed?format=xml&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DjRiQX9TsiyQ" title="2013 Bugatti Veyron 16.4 Grand Sport Vitesse Commercial - Carjam TV Car Show 2013">
+
+        <meta property="og:site_name" content="YouTube">
+      <meta property="og:url" content="https://www.youtube.com/watch?v=jRiQX9TsiyQ">
+    <meta property="og:title" content="2013 Bugatti Veyron 16.4 Grand Sport Vitesse Commercial - Carjam TV Car Show 2013">
+    <meta property="og:image" content="images/maxresdefault_5.jpg">
+
+      <meta property="og:description" content="CARJAM TV - Subscribe Here Now http://www.youtube.com/carjamradio Like Us Now On Facebook: http://www.facebook.com/CarjamTV For The World&#39;s Best Car Videos W...">
+
+    <meta property="al:ios:app_store_id" content="544007664">
+    <meta property="al:ios:app_name" content="YouTube">
+      <meta property="al:ios:url" content="vnd.youtube://www.youtube.com/watch?v=jRiQX9TsiyQ&amp;feature=applinks">
+
+      <meta property="al:android:url" content="vnd.youtube://www.youtube.com/watch?v=jRiQX9TsiyQ&amp;feature=applinks">
+    <meta property="al:android:app_name" content="YouTube">
+    <meta property="al:android:package" content="com.google.android.youtube">
+    <meta property="al:web:url" content="https://www.youtube.com/watch?v=jRiQX9TsiyQ&amp;feature=applinks">
+
+    <meta property="og:type" content="video">
+        <meta property="og:video:url" content="jRiQX9TsiyQ.html">
+        <meta property="og:video:secure_url" content="jRiQX9TsiyQ.html">
+        <meta property="og:video:type" content="text/html">
+        <meta property="og:video:width" content="1280">
+        <meta property="og:video:height" content="720">
+        <meta property="og:video:url" content="jRiQX9TsiyQ">
+        <meta property="og:video:secure_url" content="jRiQX9TsiyQ">
+        <meta property="og:video:type" content="application/x-shockwave-flash">
+        <meta property="og:video:width" content="1280">
+        <meta property="og:video:height" content="720">
+
+        <meta property="og:video:tag" content="CARJAM TV">
+        <meta property="og:video:tag" content="Carjam Car TV Show">
+        <meta property="og:video:tag" content="Television show about cars">
+        <meta property="og:video:tag" content="english car tv show">
+        <meta property="og:video:tag" content="New car tv show">
+        <meta property="og:video:tag" content="automotive tv show">
+        <meta property="og:video:tag" content="best car shows tv">
+        <meta property="og:video:tag" content="carjam">
+        <meta property="og:video:tag" content="car talk">
+        <meta property="og:video:tag" content="RTE Car Show">
+        <meta property="og:video:tag" content="bbc top gear">
+        <meta property="og:video:tag" content="car tv programme">
+        <meta property="og:video:tag" content="car television show">
+        <meta property="og:video:tag" content="great car ad">
+        <meta property="og:video:tag" content="Car Commercial 2012">
+        <meta property="og:video:tag" content="Car Commercial 2013">
+        <meta property="og:video:tag" content="New Bugatti">
+        <meta property="og:video:tag" content="New Bugatti Veyron 16.4">
+        <meta property="og:video:tag" content="Grand Sport Vitesse">
+        <meta property="og:video:tag" content="Bugatti Veyron">
+        <meta property="og:video:tag" content="2013 Bugatti Veyron 16.4">
+
+    <meta property="fb:app_id" content="87741124305">
+
+        <meta name="twitter:card" content="player">
+    <meta name="twitter:site" content="@youtube">
+    <meta name="twitter:url" content="https://www.youtube.com/watch?v=jRiQX9TsiyQ">
+    <meta name="twitter:title" content="2013 Bugatti Veyron 16.4 Grand Sport Vitesse Commercial - Carjam TV Car Show 2013">
+    <meta name="twitter:description" content="CARJAM TV - Subscribe Here Now http://www.youtube.com/carjamradio Like Us Now On Facebook: http://www.facebook.com/CarjamTV For The World&#39;s Best Car Videos W...">
+    <meta name="twitter:image" content="https://i.ytimg.com/vi/jRiQX9TsiyQ/maxresdefault.jpg">
+    <meta name="twitter:app:name:iphone" content="YouTube">
+    <meta name="twitter:app:id:iphone" content="544007664">
+    <meta name="twitter:app:name:ipad" content="YouTube">
+    <meta name="twitter:app:id:ipad" content="544007664">
+      <meta name="twitter:app:url:iphone" content="vnd.youtube://www.youtube.com/watch?v=jRiQX9TsiyQ&amp;feature=applinks">
+      <meta name="twitter:app:url:ipad" content="vnd.youtube://www.youtube.com/watch?v=jRiQX9TsiyQ&amp;feature=applinks">
+    <meta name="twitter:app:name:googleplay" content="YouTube">
+    <meta name="twitter:app:id:googleplay" content="com.google.android.youtube">
+    <meta name="twitter:app:url:googleplay" content="https://www.youtube.com/watch?v=jRiQX9TsiyQ">
+      <meta name="twitter:player" content="https://www.youtube.com/embed/jRiQX9TsiyQ">
+      <meta name="twitter:player:width" content="1280">
+      <meta name="twitter:player:height" content="720">
+
+<style>.exp-invert-logo .hats-logo {background: no-repeat url(images/logo_mini_gray-vflfanGkh.png);width: 65px;height: 15px;}.exp-invert-logo #header:before,.exp-invert-logo .ypc-join-family-header .logo,.exp-invert-logo #footer-logo .footer-logo-icon,.exp-invert-logo #yt-masthead #logo-container .logo,.exp-invert-logo #masthead #logo-container,.exp-invert-logo .admin-masthead-logo a,.exp-invert-logo #yt-sidebar-styleguide-logo #logo {background: no-repeat url(images/logo_small-vflHpzGZm.png);width: 100px;height: 30px;}.exp-invert-logo.inverted-hdpi #header:before,.exp-invert-logo.inverted-hdpi .ypc-join-family-header .logo,.exp-invert-logo.inverted-hdpi #footer-logo .footer-logo-icon,.exp-invert-logo.inverted-hdpi #yt-masthead #logo-container .logo,.exp-invert-logo.inverted-hdpi #masthead #logo-container,.exp-invert-logo.inverted-hdpi .admin-masthead-logo a,.exp-invert-logo.inverted-hdpi #yt-sidebar-styleguide-logo #logo {background: no-repeat url(images/logo_small_2x-vfl4_cFqn.png);background-size: 100px 30px;width: 100px;height: 30px;}.exp-invert-logo.exp-fusion-nav-redesign .masthead-logo-renderer-logo {background: no-repeat url(images/yt_play_logo-vflLfk4yD.png);width: 40px;height: 28px;}.exp-invert-logo.inverted-hdpi.exp-fusion-nav-redesign .masthead-logo-renderer-logo {background: no-repeat url(images/yt_play_logo_2x-vflXx5Pg3.png);width: 40px;height: 28px;}@media screen and (max-width: 656px) {.exp-invert-logo #yt-masthead #logo-container .logo {background: no-repeat url(images/yt_play_logo-vflLfk4yD.png);width: 40px;height: 28px;}.exp-invert-logo.inverted-hdpi #yt-masthead #logo-container .logo {background: no-repeat url(images/yt_play_logo_2x-vflXx5Pg3.png);background-size: 40px 28px;width: 40px;height: 28px;}}@media only screen and (min-width: 0px) and (max-width: 498px),only screen and (min-width: 499px) and (max-width: 704px) {.exp-invert-logo.exp-responsive #yt-masthead #logo-container {background: no-repeat url(images/yt_play_logo-vflLfk4yD.png);width: 40px;height: 28px;}.exp-invert-logo.inverted-hdpi.exp-responsive #yt-masthead #logo-container {background: no-repeat url(images/yt_play_logo_2x-vflXx5Pg3.png);background-size: 40px 28px;width: 40px;height: 28px;}}.exp-invert-logo #yt-masthead #logo-container .logo-red {background: no-repeat url(images/logo_youtube_red-vflZxcSR1.png);width: 132px;height: 30px;}.exp-invert-logo.inverted-hdpi #yt-masthead #logo-container .logo-red {background: no-repeat url(images/logo_youtube_red_2x-vflOSHA_n.png);background-size: 132px 30px;width: 132px;height: 30px;}.exp-invert-logo .guide-item .guide-video-youtube-red-icon {background: no-repeat url(images/video_youtube_red-vflovGTdz.png);width: 20px;height: 20px;}.exp-invert-logo.inverted-hdpi .guide-item .guide-video-youtube-red-icon {background: no-repeat url(images/video_youtube_red_2x-vflqMdgEM.png);background-size: 20px 20px;width: 20px;height: 20px;}.exp-invert-logo .guide-item:hover .guide-video-youtube-red-icon,.exp-invert-logo .guide-item.guide-item-selected .guide-video-youtube-red-icon {background: no-repeat url(images/video_youtube_red_hover-vflgV4Gv0.png);width: 20px;height: 20px;}.exp-invert-logo.inverted-hdpi .guide-item:hover .guide-video-youtube-red-icon,.exp-invert-logo.inverted-hdpi .guide-item.guide-item-selected .guide-video-youtube-red-icon {background: no-repeat url(images/video_youtube_red_hover_2x-vflYjZHvf.png);background-size: 20px 20px;width: 20px;height: 20px;}.exp-invert-logo li.guide-section h3,.exp-invert-logo li.guide-section h3 a {color: #f00;}.exp-invert-logo a.yt-uix-button-epic-nav-item:hover,.exp-invert-logo a.yt-uix-button-epic-nav-item.selected,.exp-invert-logo a.yt-uix-button-epic-nav-item.yt-uix-button-toggled,.exp-invert-logo a.yt-uix-button-epic-nav-item.partially-selected,.exp-invert-logo a.yt-uix-button-epic-nav-item.partially-selected:hover,.exp-invert-logo button.yt-uix-button-epic-nav-item:hover,.exp-invert-logo button.yt-uix-button-epic-nav-item.selected,.exp-invert-logo button.yt-uix-button-epic-nav-item.yt-uix-button-toggled,.exp-invert-logo .epic-nav-item:hover,.exp-invert-logo .epic-nav-item.selected,.exp-invert-logo .epic-nav-item.yt-uix-button-toggled,.exp-invert-logo .epic-nav-item-heading,.exp-invert-logo .yt-gb-shelf-item-thumbtab.yt-gb-selected-shelf-tab::before {border-color: #f00;}.exp-invert-logo .resume-playback-progress-bar,.exp-invert-logo .yt-uix-button-subscribe-branded,.exp-invert-logo .yt-uix-button-subscribe-branded[disabled],.exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:hover,.exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:active,.exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:focus,.exp-invert-logo .sb-notif-on .yt-uix-button-content,.exp-invert-logo .guide-item.guide-item-selected,.exp-invert-logo .guide-item.guide-item-selected:hover,.exp-invert-logo .guide-item.guide-item-selected .yt-deemphasized-text,.exp-invert-logo .guide-item.guide-item-selected:hover .yt-deemphasized-text {background-color: #f00;}.exp-invert-logo .yt-uix-button-subscribe-branded:hover {background-color: #d90a17;}.exp-invert-logo .yt-uix-button-subscribe-branded.yt-is-buffered,.exp-invert-logo .yt-uix-button-subscribe-branded:active,.exp-invert-logo .yt-uix-button-subscribe-branded.yt-uix-button-toggled,.exp-invert-logo .yt-uix-button-subscribe-branded.yt-uix-button-active,.exp-invert-logo .yt-uix-button-subscribed-branded.external,.exp-invert-logo .yt-uix-button-subscribed-branded.external[disabled],.exp-invert-logo .yt-uix-button-subscribed-branded.external:active,.exp-invert-logo .yt-uix-button-subscribed-branded.external.yt-uix-button-toggled,.exp-invert-logo .yt-uix-button-subscribed-branded.external.yt-uix-button-active {background-color: #a60812;}</style><style>.exp-invert-logo #header:before, .exp-invert-logo .ypc-join-family-header .logo, .exp-invert-logo #footer-logo .footer-logo-icon, .exp-invert-logo #yt-masthead #logo-container .logo, .exp-invert-logo #masthead #logo-container, .exp-invert-logo .admin-masthead-logo a, .exp-invert-logo #yt-sidebar-styleguide-logo #logo { background: no-repeat url(images/logo_small_2x-vfl4_cFqn.png); background-size: 100px 30px; } .exp-invert-logo #yt-masthead #logo-container .logo-red { background: no-repeat url(images/logo_youtube_red_2x-vflOSHA_n.png); background-size: 132px 30px; } @media only screen and (min-width: 0px) and (max-width: 498px), only screen and (min-width: 499px) and (max-width: 704px) { .exp-invert-logo.exp-responsive #yt-masthead #logo-container { background: no-repeat url(images/yt_play_logo_2x-vflXx5Pg3.png); background-size: 40px 28px; } } .guide-sort-container {display: none}</style></head>  <body dir="ltr" id="body" class="  ltr  webkit webkit-537  exp-invert-logo exp-mouseover-img exp-responsive exp-scrollable-guide exp-search-big-thumbs   site-center-aligned site-as-giant-card appbar-hidden    visibility-logging-enabled   not-nirvana-dogfood    flex-width-enabled      flex-width-enabled-snap    delayed-frame-styles-not-in  " data-spf-name="watch">
+<div id="early-body"></div><div id="body-container"><div id="a11y-announcements-container" role="alert"><div id="a11y-announcements-message"></div></div><form name="logoutForm" method="POST" action="/logout"><input type="hidden" name="action_logout" value="1"></form><div id="masthead-positioner">  <div id="ticker-content">
+        
+
+  </div>
+  <div id="yt-masthead-container" class="clearfix yt-base-gutter">  <button id="a11y-skip-nav" class="skip-nav" data-target-id="main" tabindex="3">
+Laktawan ang navigation
+  </button>
+<div id="yt-masthead"><div class="yt-masthead-logo-container ">  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-text yt-uix-button-empty yt-uix-button-has-icon appbar-guide-toggle appbar-guide-clickable-ancestor" type="button" onclick=";return false;" id="appbar-guide-button" aria-label="Gabay" aria-controls="appbar-guide-menu"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-appbar-guide yt-sprite"></span></span></button>
+  <div id="appbar-main-guide-notification-container"></div>
+<span id="yt-masthead-logo-fragment"><a href="/" class="masthead-logo-renderer yt-uix-sessionlink      spf-link " data-sessionlink="itct=CAUQsV4iEwiisrCr4PzWAhWSXyoKHbdjCPEo-B0" id="logo-container" title="YouTube Home">  <span class="logo masthead-logo-renderer-logo yt-sprite" title="YouTube Home"></span>
+<span class="content-region">PH</span></a></span></div><div id="yt-masthead-signin"><a href="//www.youtube.com/upload" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-opacity yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip yt-uix-button-empty" data-sessionlink="ei=R6PoWeLyB5K_qQG3x6GIDw&amp;feature=mhsb" id="upload-btn" title="Mag-upload"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-material-upload yt-sprite"></span></span></a><div class="signin-container "><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-primary" type="button" onclick=";window.location.href=this.getAttribute(&#39;href&#39;);return false;" role="link" href="https://accounts.google.com/ServiceLogin?service=youtube&amp;hl=fil&amp;passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Ffeature%3Dsign_in_button%26next%3D%252Fwatch%253Fv%253DjRiQX9TsiyQ%26hl%3Dfil%26action_handle_signin%3Dtrue%26app%3Ddesktop&amp;uilel=3"><span class="yt-uix-button-content">Mag-sign in</span></button></div></div><div id="yt-masthead-content"><form id="masthead-search" class="  search-form consolidated-form  vve-check" action="/results" onsubmit="if (document.getElementById(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false;" data-clicktracking="CAEQ7VAiEwiisrCr4PzWAhWSXyoKHbdjCPEo-B0" data-visibility-tracking="CAEQ7VAiEwiisrCr4PzWAhWSXyoKHbdjCPEo-B0"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default search-btn-component search-button" type="submit" onclick="if (document.getElementById(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false; document.getElementById(&#39;masthead-search&#39;).submit(); return false;;return true;" id="search-btn" tabindex="2" dir="ltr"><span class="yt-uix-button-content">Paghahanap</span></button><div id="masthead-search-terms" class="masthead-search-terms-border" dir="ltr"><input id="masthead-search-term" autocomplete="off" onkeydown="if (!this.value &amp;&amp; (event.keyCode == 40 || event.keyCode == 32 || event.keyCode == 34)) {this.onkeydown = null; this.blur();}" class="search-term masthead-search-renderer-input yt-uix-form-input-bidi" name="search_query" value="" type="text" tabindex="1" placeholder="Maghanap" title="Paghahanap" aria-label="Paghahanap"></div></form></div></div></div>
+    <div id="masthead-appbar-container" class="clearfix"><div id="masthead-appbar"><div id="appbar-content" class=""></div></div></div>
+
+</div><div id="masthead-positioner-height-offset"></div><div id="page-container"><div id="page" class="  watch        video-jRiQX9TsiyQ clearfix"><div id="guide" class="yt-scrollbar">    <div id="appbar-guide-menu" class="appbar-menu appbar-guide-menu-layout appbar-guide-clickable-ancestor">
+    <div id="guide-container">
+      <div class="guide-module-content guide-module-loading">
+          <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+Naglo-load...
+    </span>
+  </p>
+
+      </div>
+    </div>
+  </div>
+
+</div><div class="alerts-wrapper"><div id="alerts" class="content-alignment">    
+  <div id="editor-progress-alert-container"></div>
+  <div class="yt-alert yt-alert-default yt-alert-warn hid " id="editor-progress-alert-template">  <div class="yt-alert-icon">
+    <span class="icon master-sprite yt-sprite"></span>
+  </div>
+<div class="yt-alert-content" role="alert"></div><div class="yt-alert-buttons"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" type="button" onclick=";return false;" aria-label="Isara" data-close-parent-class="yt-alert"><span class="yt-uix-button-content">Isara</span></button></div></div>
+
+    <div id="edit-confirmation-alert"></div>
+  <div class="yt-alert yt-alert-actionable yt-alert-info hid " id="edit-confirmation-alert-template">  <div class="yt-alert-icon">
+    <span class="icon master-sprite yt-sprite"></span>
+  </div>
+<div class="yt-alert-content" role="alert">    <div class="yt-alert-message" tabindex="0">
+    </div>
+</div><div class="yt-alert-buttons">  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-alert-info yt-uix-button-has-icon edit-confirmation-yes" type="button" onclick=";return false;"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-like-invert yt-sprite"></span></span><span class="yt-uix-button-content">Oo, panatilihin ito</span></button>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-alert-info yt-uix-button-has-icon edit-confirmation-no" type="button" onclick=";return false;"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-unlike-invert yt-sprite"></span></span><span class="yt-uix-button-content">I-undo</span></button>
+<button class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" type="button" onclick=";return false;" aria-label="Isara" data-close-parent-class="yt-alert"><span class="yt-uix-button-content">Isara</span></button></div></div>
+
+
+
+</div></div><div id="header"></div><div id="player" class="  content-alignment       watch-small  " role="complementary"><div id="theater-background" class="player-height"></div>  <div id="player-mole-container">
+    <div id="player-unavailable" class="    hid    player-width player-height    player-unavailable ">
+              <img class="icon meh" src="images/pixel-vfl3z5WfW.gif" data-icon="/yts/img/meh7-vflGevej7.png" alt="">
+  <div class="content">
+    <h1 id="unavailable-message" class="message">
+              Ang video na ito ay hindi magagamit.
+
+    </h1>
+    <div id="unavailable-submessage" class="submessage">
+    </div>
+  </div>
+
+
+    </div>
+
+    <div id="player-api" class="player-width player-height off-screen-target player-api" tabindex="-1"></div>
+        <script>if (window.ytcsi) {window.ytcsi.tick("cfg", null, '');}</script>
+    <script>var ytplayer = ytplayer || {};ytplayer.config = {"attrs":{"id":"movie_player"},"params":{"allowscriptaccess":"always","bgcolor":"#000000","allowfullscreen":"true"},"sts":17456,"url":"","html5":true,"args":{"shortform":true,"plid":"AAVb5gVuhPAa-AMq","enablejsapi":"1","itct":"CAMQu2kiEwiisrCr4PzWAhWSXyoKHbdjCPEo-B0=","ad_flags":"0","cos":"Windows","ad3_module":"1","avg_rating":"4.73764276505","pyv_ad_channel":"PyvWatchInRelated+PyvWatchNoAdX+PyvYTWatch+YtLoPri+afv_user_carjamradio+afv_user_id_UTD4hr_kXIwrZL5MKCjyOw+non_lpw+pw+yt_cid_13170463+yt_mpvid_tkhTZrIl0MG2TAIp+yt_no_ap+yt_no_wa+ytdevice_1+ytdevicever_1.20171018","tmi":"1","fade_in_duration_milliseconds":"1000","cbrver":"40.0.2214.115","adsense_video_doc_id":"yt_jRiQX9TsiyQ","innertube_context_client_version":"1.20171018","fade_out_duration_milliseconds":"1000","invideo":true,"cosver":"6.1","vm":"CAEQARgE","sourceid":"yw","storyboard_spec":"https:\/\/i9.ytimg.com\/sb\/jRiQX9TsiyQ\/storyboard3_L$L\/$N.jpg|48#27#100#10#10#0#default#rs$AOn4CLCMzxBe5rW_cMCjpBDxVFr69Xw2vA|80#45#75#10#10#2000#M$M#rs$AOn4CLBcCYAduYD1A_4gX6AfAlWgEXeHnw|160#90#75#5#5#2000#M$M#rs$AOn4CLCYnH3ErNA08ebrcEsXOFpV82oaRg","show_pyv_in_related":true,"allow_embed":"1","mpvid":"tkhTZrIl0MG2TAIp","fade_in_start_milliseconds":"-3000","is_listed":"1","referrer":"https:\/\/www.youtube.com\/watch?v=Xd0Ok-MkqoE","iv_load_policy":"1","length_seconds":"148","hl":"fil_PH","iv3_module":"1","core_dbp":"ChZKMnNIOVdIQlNLckc2LW5tUktrbjlREAEgASgA","allow_below_the_player_companion":true,"enablecsi":"1","watermark":",https:\/\/s.ytimg.com\/yts\/img\/watermark\/youtube_watermark-vflHX6b6E.png,https:\/\/s.ytimg.com\/yts\/img\/watermark\/youtube_hd_watermark-vflAzLcD6.png","apiary_host_firstparty":"","watch_xlb":"https:\/\/s.ytimg.com\/yts\/xlbbin\/watch-strings-fil_PH-vflwMUzoR.xlb","ptchn":"UTD4hr_kXIwrZL5MKCjyOw","gapi_hint_params":"m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.CMK08v540qY.O\/m=__features__\/am=AAg\/rt=j\/d=1\/rs=AHpOoo-zuYXPOIuiHXsKOXE2DwZ06yC48g","gpt_migration":"1","pltype":"content","fade_out_start_milliseconds":"0","dbp":"Ch4KFkoyc0g5V0hCU0tyRzYtbm1SS2tuOVEQASABKAAQARgC","ucid":"UCUTD4hr_kXIwrZL5MKCjyOw","loeid":"9422596,9471235,9474594,9484938,9488991,23700497,23701005,23702700,23703455,23705778,23705906,23706155,23707713,23709257,23709584","ismb":"2080000","vmap":"\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\u003cvmap:VMAP xmlns:vmap=\"http:\/\/www.iab.net\/videosuite\/vmap\" xmlns:yt=\"http:\/\/youtube.com\" version=\"1.0\"\u003e\u003cvmap:AdBreak breakType=\"linear\" timeOffset=\"start\"\u003e\u003cvmap:AdSource allowMultipleAds = \"false\"\u003e\u003cvmap:AdTagURI\u003e\u003c![CDATA[https:\/\/www.youtube.com\/get_midroll_info?ei=R6PoWeLyB5K_qQG3x6GIDw\u0026m_pos=0\u0026index=0\u0026token=ACPjMx75DqOjM3atZTXzeWlGF2MAho1NFVp1YnM9nY6IVplo9tfc5M7WtPGtmA_nSQNreT08vgPxsDgBOjIZRWuyw2vMvYEUXgWoE0m0EY2ARcuE4TPVvHFIqhljVSW2JMzK9Iq1zRcqPhDsQQdUeYlRUR7RXxbeeJ0emWfwnpxRLk8bj1dZKUq4qy8MFVcNKF8wG6nIzBViL2WJyYlnFdsTr7-K5Qbve19dXuiI1_pd_6qVjaIp0QeSjXM-x1P_kQg0mCeP9Ir-JZa05t-5nKVgBZPO_RUDUeCuqsoIoUxTUs4QYtQ26kSSPrgjOmp5lUtnUIhDWUnX\u0026ad_block=[AD_BLOCK]\u0026cpn=[CPN]\u0026lact=-1\u0026tsla=[TSLA]\u0026vis=[VIS]\u0026bid=[BISCOTTI_ID]\u0026dt=[DT]\u0026flash=[FLASH]\u0026frm=[FRM]\u0026ca_type=[CA_TYPE]\u0026u_tz=[U_TZ]\u0026u_his=[U_HIS]\u0026u_java=[U_JAVA]\u0026u_h=[U_H]\u0026u_w=[U_W]\u0026u_ah=[U_AH]\u0026u_aw=[U_AW]\u0026u_cd=[U_CD]\u0026u_nplug=[U_NPLUG]\u0026u_nmime=[U_NMIME]\u0026c=WEB\u0026cver=1.20171018]]\u003e\u003c\/vmap:AdTagURI\u003e\u003c\/vmap:AdSource\u003e\u003cvmap:TrackingEvents\u003e\u003cvmap:Tracking event=\"error\"\u003e\u003c![CDATA[https:\/\/www.youtube.com\/api\/stats\/ads?ver=2\u0026ns=1\u0026event=1\u0026device=1\u0026content_v=jRiQX9TsiyQ\u0026el=detailpage\u0026ei=R6PoWeLyB5K_qQG3x6GIDw\u0026devicever=1.20171018\u0026break_type=[BREAK_TYPE]\u0026conn=[CONN]\u0026cpn=[CPN]\u0026lact=[LACT]\u0026m_pos=[MIDROLL_POS]\u0026mt=[MT]\u0026p_h=[P_H]\u0026p_w=[P_W]\u0026rwt=[RWT]\u0026sdkv=[SDKV]\u0026slot_pos=[SLOT_POS]\u0026vis=[VIS]\u0026vol=[VOL]\u0026wt=[WT]]]\u003e\u003c\/vmap:Tracking\u003e\u003c\/vmap:TrackingEvents\u003e\u003cvmap:Extensions\u003e\u003cvmap:Extension type=\"YouTube\"\u003e\u003cyt:BreakProperty break_type=\"BREAK_TYPE_PRE_ROLL\"\/\u003e\u003c\/vmap:Extension\u003e\u003c\/vmap:Extensions\u003e\u003c\/vmap:AdBreak\u003e\u003cvmap:Extensions\u003e\u003cvmap:Extension type=\"YouTube\"\u003e\u003cTrackingDecoration match=\"^https?:\/\/((([a-z][a-z0-9.-]*\\.)?(youtube|corp\\.google).com\/api\/stats\/ads)|((www\\.)?youtube\\.com\/pagead\/psul))\" headers=\"device,user\"\/\u003e\u003cTrackingMacro match=\"^https?:\/\/(secure\\-uat\\-dpr\\.imrworldwide|secure\\-gg\\.imrworldwide|sb\\.scorecardresearch)\\.com\/\" macros=\"device_id\"\/\u003e\u003cRegexUriMacroValidator\u003e\u003cMacroToRegexUris macro=\"NIELSEN_DEVICE_ID\"\u003e\u003cRegexUri value=\"^https?:\/\/(secure\\-uat\\-dpr\\.imrworldwide|secure\\-gg\\.imrworldwide|sb\\.scorecardresearch)\\.com\/\"\/\u003e\u003c\/MacroToRegexUris\u003e\u003cMacroToRegexUris macro=\"COMSCORE_DEVICE_ID\"\u003e\u003cRegexUri value=\"^https?:\/\/(secure\\-uat\\-dpr\\.imrworldwide|secure\\-gg\\.imrworldwide|sb\\.scorecardresearch)\\.com\/\"\/\u003e\u003c\/MacroToRegexUris\u003e\u003cMacroToRegexUris macro=\"MOAT_INIT\"\u003e\u003cRegexUri value=\"^https?:\/\/yts\\.moatads\\.com\"\/\u003e\u003cRegexUri value=\"^https?:\/\/yts-testing\\.moatads\\.com\"\/\u003e\u003cRegexUri value=\"^https?:\/\/pagead2\\.googlesyndication\\.com\/pagead\/gen_204\"\/\u003e\u003c\/MacroToRegexUris\u003e\u003cMacroToRegexUris macro=\"MOAT_VIEWABILITY\"\u003e\u003cRegexUri value=\"^https?:\/\/[^.]*\\.moatads\\.com\"\/\u003e\u003cRegexUri value=\"^https?:\/\/pagead2\\.googlesyndication\\.com\/pagead\/gen_204\"\/\u003e\u003cRegexUri value=\"^https?:\/\/pubads\\.g\\.doubleclick\\.net\"\/\u003e\u003c\/MacroToRegexUris\u003e\u003cMacroToRegexUris macro=\"IAS_VIEWABILITY\"\u003e\u003cRegexUri value=\"^https?:\/\/pm\\.adsafeprotected\\.com\/youtube\"\/\u003e\u003cRegexUri value=\"^https?:\/\/pm\\.test-adsafeprotected\\.com\/youtube\"\/\u003e\u003cRegexUri value=\"^https?:\/\/pagead2\\.googlesyndication\\.com\/pagead\/gen_204\"\/\u003e\u003cRegexUri value=\"^https?:\/\/pubads\\.g\\.doubleclick\\.net\"\/\u003e\u003c\/MacroToRegexUris\u003e\u003cMacroToRegexUris macro=\"DV_VIEWABILITY\"\u003e\u003cRegexUri value=\"^https?:\/\/e[0-9]+\\.yt\\.srs\\.doubleverify\\.com\"\/\u003e\u003cRegexUri value=\"^https?:\/\/pagead2\\.googlesyndication\\.com\/pagead\/gen_204\"\/\u003e\u003cRegexUri value=\"^https?:\/\/pubads\\.g\\.doubleclick\\.net\"\/\u003e\u003c\/MacroToRegexUris\u003e\u003cMacroToRegexUris macro=\"GOOGLE_VIEWABILITY\"\u003e\u003cRegexUri value=\"^https?:\/\/pagead2\\.googlesyndication\\.com\"\/\u003e\u003cRegexUri value=\"^https?:\/\/pubads\\.g\\.doubleclick\\.net\"\/\u003e\u003cRegexUri value=\"^https?:\/\/googleads\\.g\\.doubleclick\\.net\"\/\u003e\u003cRegexUri value=\"^https?:\/\/([a-z0-9]+\\.)*youtube\\.com\"\/\u003e\u003cRegexUri value=\"^https?:\/\/ad[\\.-]([a-z0-9]+\\.){0,1}doubleclick\\.net\"\/\u003e\u003cRegexUri value=\"^https?:\/\/ade\\.googlesyndication\\.com\"\/\u003e\u003c\/MacroToRegexUris\u003e\u003c\/RegexUriMacroValidator\u003e\u003c\/vmap:Extension\u003e\u003c\/vmap:Extensions\u003e\u003c\/vmap:VMAP\u003e","ssl":"1","midroll_freqcap":"420.0","idpj":"-5","swf_player_response":"1","ad_device":"1","vss_host":"s.youtube.com","ptk":"youtube_single","cl":"172568519","atc":"a=3\u0026b=1J59_ozE6Kl4eJ6FMB2RE4iPD90\u0026c=1508418375\u0026d=1\u0026e=jRiQX9TsiyQ\u0026c3a=23\u0026c1a=1\u0026c6a=1\u0026hh=rZjXMLXyXLv9B-uE4V2tTDj74H7-PvHsw7XPRimJh8E","apiary_host":"","cr":"PH","ad_preroll":"1","fexp":"23700271,23700497,23701005,23701019,23702322,23702700,23703455,23704248,23705485,23705739,23705906,23706129,23706155,23707713,23709257,23709584,9422596,9431754,9449243,9467502,9471235,9474594,9476026,9476327,9480475,9484237,9484938,9485000,9488038","show_content_thumbnail":true,"player_response":"{\"playbackTracking\":{},\"videoDetails\":{\"thumbnail\":{\"thumbnails\":[{\"url\":\"https:\/\/i.ytimg.com\/vi\/jRiQX9TsiyQ\/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==\\u0026rs=AOn4CLBlaoTPVPV0C3tXrWFnd0A3xlG7Sw\",\"width\":168,\"height\":94},{\"url\":\"https:\/\/i.ytimg.com\/vi\/jRiQX9TsiyQ\/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==\\u0026rs=AOn4CLDC7ZA_RP_XIjJhY4v1g1KGUPhuvQ\",\"width\":196,\"height\":110},{\"url\":\"https:\/\/i.ytimg.com\/vi\/jRiQX9TsiyQ\/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=\\u0026rs=AOn4CLASGPvBJhTmoWqLq_mf2eJW-w9PmQ\",\"width\":246,\"height\":138},{\"url\":\"https:\/\/i.ytimg.com\/vi\/jRiQX9TsiyQ\/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=\\u0026rs=AOn4CLCNcBk2RgtPh5xvltBXQB-yF41AKw\",\"width\":336,\"height\":188}]}},\"adSafetyReason\":{}}","account_playback_token":"QUFFLUhqbXZ2LW1jT2ZBbVJIS25mZl9aX2V4Zmxya0VrQXxBQ3Jtc0tsczcwemJjYzNFeV9iUC1JZkJuZkFlRUhQeGpIRTFkUU5XZ2ZYcnU1b3hlVDhzWHJXLThSWmNLal8xMXh4eERJaWNhc2lERFQ3S2d0bldMX2UxZG92SlIyenRPMUk5bGlESndyRkhydHo5cnl2R2J1cw==","view_count":"321193","title":"2013 Bugatti Veyron 16.4 Grand Sport Vitesse Commercial - Carjam TV Car Show 2013","host_language":"fil","excluded_ads":"46=14_14;59=14_14;76=2_2_1,2_2_4;94=17_2_1,17_2_4","token":"1","allow_ratings":"1","keywords":"CARJAM TV,Carjam Car TV Show,Television show about cars,english car tv show,New car tv show,automotive tv show,best car shows tv,carjam,car talk,RTE Car Show,bbc top gear,car tv programme,car television show,great car ad,Car Commercial 2012,Car Commercial 2013,New Bugatti,New Bugatti Veyron 16.4,Grand Sport Vitesse,Bugatti Veyron,2013 Bugatti Veyron 16.4","mpu":true,"fmt_list":"22\/1280x720\/9\/0\/115,43\/640x360\/99\/0\/0,18\/640x360\/9\/0\/115,36\/320x180\/99\/1\/0,17\/176x144\/99\/1\/0","sdetail":"rv:Xd0Ok-MkqoE","iv_invideo_url":"https:\/\/www.youtube.com\/annotations_invideo?cap_hist=1\u0026video_id=jRiQX9TsiyQ\u0026client=1\u0026ei=R6PoWeLyB5K_qQG3x6GIDw","ppv_remarketing_url":"https:\/\/www.googleadservices.com\/pagead\/conversion\/971134070\/?backend=innertube\u0026cname=1\u0026cver=1_20171018\u0026data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D1_20171018%3Bdactive%3DNone%3Bdynx_itemid%3DjRiQX9TsiyQ%3Bptype%3Dppv\u0026label=iuZUCLmC72YQ9qiJzwM\u0026ptype=ppv","gut_tag":"\/4061\/ytpwatch","ad_slots":"0","as_launched_in_country":"1","instream_long":false,"url_encoded_fmt_stream_map":"type=video%2Fmp4%3B+codecs%3D%22avc1.64001F%2C+mp4a.40.2%22\u0026itag=22\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fid%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26signature%3D106E351C2DD5887FBA1E2B9D79A33CE0A14D2F9B.2EABE16501F77869FC3DCB136D14F8B2B2625816%26key%3Dyt6%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26pl%3D23%26ip%3D49.150.238.154%26requiressl%3Dyes%26lmt%3D1470936722713155%26mt%3D1508418234%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26source%3Dyoutube%26mv%3Dm%26dur%3D147.539%26ipbits%3D0%26initcwndbps%3D260000%26ratebypass%3Dyes%26mime%3Dvideo%252Fmp4%26expire%3D1508439975%26sparams%3Ddur%252Cei%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Cratebypass%252Crequiressl%252Csource%252Cexpire%26itag%3D22\u0026quality=hd720,type=video%2Fwebm%3B+codecs%3D%22vp8.0%2C+vorbis%22\u0026itag=43\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3D6B75AC13C4A5EAD8EF587225A82694C973CC0ACC.541A91D3384396D1677F80530DD2B84D21F4489B%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1334505441056925%26source%3Dyoutube%26dur%3D0.000%26clen%3D15516905%26ratebypass%3Dyes%26expire%3D1508439975%26itag%3D43%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Dvideo%252Fwebm%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Cratebypass%252Crequiressl%252Csource%252Cexpire\u0026quality=medium,type=video%2Fmp4%3B+codecs%3D%22avc1.42001E%2C+mp4a.40.2%22\u0026itag=18\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3D9C9E79FF0F38D514D64474D05F80E59F600F55DE.CFD335BCE5FE0AAFED8B41749D69CC3A9F7CCD22%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1439693328957558%26source%3Dyoutube%26dur%3D147.539%26clen%3D12434943%26ratebypass%3Dyes%26expire%3D1508439975%26itag%3D18%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Dvideo%252Fmp4%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Cratebypass%252Crequiressl%252Csource%252Cexpire\u0026quality=medium,type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22\u0026itag=36\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3D1BC1F6C0D6AEB329E436353C43F31387CBF21D52.6F7A273461F349814D1E740A80096BDEE2BF703E%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1427922393921313%26source%3Dyoutube%26dur%3D147.678%26clen%3D4220187%26expire%3D1508439975%26itag%3D36%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Dvideo%252F3gpp%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026quality=small,type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22\u0026itag=17\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3DB680096BB177A97E148E66FC2D3814A357A8BD81.E1788438F543B55DB17E0E8CF3677A10293717D3%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1386658345624576%26source%3Dyoutube%26dur%3D147.818%26clen%3D1508125%26expire%3D1508439975%26itag%3D17%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Dvideo%252F3gpp%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026quality=small","adaptive_fmts":"index=711-1090\u0026init=0-710\u0026fps=25\u0026projection_type=1\u0026lmt=1439693547493596\u0026itag=136\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401f%22\u0026clen=28020622\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3D25C10DBB57D157081C3E229C49877DE65CCFD8A0.9EF0233F63E0A23071114914D5E00CAB2B75698A%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1439693547493596%26source%3Dyoutube%26aitags%3D133%252C134%252C135%252C136%252C160%252C242%252C243%252C244%252C247%252C278%26dur%3D147.480%26clen%3D28020622%26expire%3D1508439975%26itag%3D136%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26keepalive%3Dyes%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Dvideo%252Fmp4%26sparams%3Daitags%252Cclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026quality_label=720p\u0026bitrate=2269862\u0026size=1280x720\u0026xtags=,index=243-735\u0026init=0-242\u0026fps=25\u0026projection_type=1\u0026lmt=1496896803241455\u0026itag=247\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026clen=25312036\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3D65D8C961D666C13B40FFC26E6D025264375C3F5F.0FF46197C05FD33AB92F9C7C64C1179D040369C1%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1496896803241455%26source%3Dyoutube%26aitags%3D133%252C134%252C135%252C136%252C160%252C242%252C243%252C244%252C247%252C278%26dur%3D147.440%26clen%3D25312036%26expire%3D1508439975%26itag%3D247%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26keepalive%3Dyes%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Dvideo%252Fwebm%26sparams%3Daitags%252Cclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026quality_label=720p\u0026bitrate=1784698\u0026size=1280x720\u0026xtags=,index=710-1089\u0026init=0-709\u0026fps=25\u0026projection_type=1\u0026lmt=1439693547268175\u0026itag=135\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401e%22\u0026clen=14514388\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3DB664545C7BEDA6FA1EADD7DCC7B01A8DA695D556.B5C167C92329A7E0C621D5CBC2373205B8D8EFC8%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1439693547268175%26source%3Dyoutube%26aitags%3D133%252C134%252C135%252C136%252C160%252C242%252C243%252C244%252C247%252C278%26dur%3D147.480%26clen%3D14514388%26expire%3D1508439975%26itag%3D135%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26keepalive%3Dyes%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Dvideo%252Fmp4%26sparams%3Daitags%252Cclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026quality_label=480p\u0026bitrate=1137337\u0026size=854x480\u0026xtags=,index=243-726\u0026init=0-242\u0026fps=25\u0026projection_type=1\u0026lmt=1496896796093015\u0026itag=244\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026clen=12400029\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3DA01C9D90FCDB0C7E7875BFEBFF8E20261FEC55DE.D355FC1A0D87D416DA5344C6559698F66D6FCE2E%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1496896796093015%26source%3Dyoutube%26aitags%3D133%252C134%252C135%252C136%252C160%252C242%252C243%252C244%252C247%252C278%26dur%3D147.440%26clen%3D12400029%26expire%3D1508439975%26itag%3D244%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26keepalive%3Dyes%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Dvideo%252Fwebm%26sparams%3Daitags%252Cclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026quality_label=480p\u0026bitrate=890154\u0026size=854x480\u0026xtags=,index=710-1089\u0026init=0-709\u0026fps=25\u0026projection_type=1\u0026lmt=1439693546038909\u0026itag=134\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401e%22\u0026clen=7463302\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3D2BB91FCD822EABF80583068DB857882DA0709EA7.526FA52297FAB55A24B7773C14FD68215949F408%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1439693546038909%26source%3Dyoutube%26aitags%3D133%252C134%252C135%252C136%252C160%252C242%252C243%252C244%252C247%252C278%26dur%3D147.480%26clen%3D7463302%26expire%3D1508439975%26itag%3D134%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26keepalive%3Dyes%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Dvideo%252Fmp4%26sparams%3Daitags%252Cclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026quality_label=360p\u0026bitrate=614928\u0026size=640x360\u0026xtags=,index=243-726\u0026init=0-242\u0026fps=25\u0026projection_type=1\u0026lmt=1496896980159249\u0026itag=243\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026clen=6990864\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3D1DC5D2E648B4812DF8D28E308450D67563B40099.B760F9E4B899B079C85EBB7102A821ED0672BBC7%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1496896980159249%26source%3Dyoutube%26aitags%3D133%252C134%252C135%252C136%252C160%252C242%252C243%252C244%252C247%252C278%26dur%3D147.440%26clen%3D6990864%26expire%3D1508439975%26itag%3D243%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26keepalive%3Dyes%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Dvideo%252Fwebm%26sparams%3Daitags%252Cclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026quality_label=360p\u0026bitrate=485192\u0026size=640x360\u0026xtags=,index=675-1054\u0026init=0-674\u0026fps=25\u0026projection_type=1\u0026lmt=1439693546303301\u0026itag=133\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d4015%22\u0026clen=4520202\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3D95DC00188A7A87A8842F3561453527494802ADD1.8E9C160DD111F427A6319A7705340F21C89492FA%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1439693546303301%26source%3Dyoutube%26aitags%3D133%252C134%252C135%252C136%252C160%252C242%252C243%252C244%252C247%252C278%26dur%3D147.480%26clen%3D4520202%26expire%3D1508439975%26itag%3D133%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26keepalive%3Dyes%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Dvideo%252Fmp4%26sparams%3Daitags%252Cclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026quality_label=240p\u0026bitrate=257751\u0026size=426x240\u0026xtags=,index=242-725\u0026init=0-241\u0026fps=25\u0026projection_type=1\u0026lmt=1496896790240120\u0026itag=242\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026clen=3796992\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3D15D914AC220B5FC13F8AC15E4D25F90581872311.27FE528FBDA81D695ED1E979D5528B38D4DDFC10%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1496896790240120%26source%3Dyoutube%26aitags%3D133%252C134%252C135%252C136%252C160%252C242%252C243%252C244%252C247%252C278%26dur%3D147.440%26clen%3D3796992%26expire%3D1508439975%26itag%3D242%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26keepalive%3Dyes%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Dvideo%252Fwebm%26sparams%3Daitags%252Cclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026quality_label=240p\u0026bitrate=257904\u0026size=426x240\u0026xtags=,index=672-1051\u0026init=0-671\u0026fps=13\u0026projection_type=1\u0026lmt=1439693545617879\u0026itag=160\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d400c%22\u0026clen=1993950\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3D44281983447AC0BD72E261DBE31CD901D93A8B0F.DB04EC1D52CFD756DC9953310B68FC589809C3EA%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1439693545617879%26source%3Dyoutube%26aitags%3D133%252C134%252C135%252C136%252C160%252C242%252C243%252C244%252C247%252C278%26dur%3D147.520%26clen%3D1993950%26expire%3D1508439975%26itag%3D160%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26keepalive%3Dyes%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Dvideo%252Fmp4%26sparams%3Daitags%252Cclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026quality_label=144p\u0026bitrate=110489\u0026size=256x144\u0026xtags=,index=242-724\u0026init=0-241\u0026fps=25\u0026projection_type=1\u0026lmt=1496896874231404\u0026itag=278\u0026type=video%2Fwebm%3B+codecs%3D%22vp9%22\u0026clen=1793819\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3D7A809BFD6335C5C19C9DE2951A01D654A43A5F67.B842ED0602B34C1D919111B500CDBA0C46C1DD14%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1496896874231404%26source%3Dyoutube%26aitags%3D133%252C134%252C135%252C136%252C160%252C242%252C243%252C244%252C247%252C278%26dur%3D147.440%26clen%3D1793819%26expire%3D1508439975%26itag%3D278%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26keepalive%3Dyes%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Dvideo%252Fwebm%26sparams%3Daitags%252Cclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026quality_label=144p\u0026bitrate=110864\u0026size=256x144\u0026xtags=,bitrate=127864\u0026type=audio%2Fmp4%3B+codecs%3D%22mp4a.40.2%22\u0026index=592-803\u0026init=0-591\u0026projection_type=1\u0026lmt=1439693297905269\u0026itag=140\u0026xtags=\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3DB54F1459A63A1F5DB91FAACB1EA1A74E8D5FD8AD.2E4FE6C1DC07CD9E2171711061FD87CFBA33073B%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1439693297905269%26source%3Dyoutube%26dur%3D147.539%26clen%3D2343875%26expire%3D1508439975%26itag%3D140%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26keepalive%3Dyes%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Daudio%252Fmp4%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026clen=2343875,bitrate=130594\u0026type=audio%2Fwebm%3B+codecs%3D%22vorbis%22\u0026index=4452-4703\u0026init=0-4451\u0026projection_type=1\u0026lmt=1496896442869382\u0026itag=171\u0026xtags=\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3D28CE7A43D19FB1CD1465F73A9AD2EDC1B87EB0D7.3693F06DAE1BD5140E96E9FDC4835EAB7863FC5D%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1496896442869382%26source%3Dyoutube%26dur%3D147.469%26clen%3D2137424%26expire%3D1508439975%26itag%3D171%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26keepalive%3Dyes%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Daudio%252Fwebm%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026clen=2137424,bitrate=57940\u0026type=audio%2Fwebm%3B+codecs%3D%22opus%22\u0026index=272-523\u0026init=0-271\u0026projection_type=1\u0026lmt=1496896450723287\u0026itag=249\u0026xtags=\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3D667163F2C02F3AAAB095AE7CBF79F3CB51444509.33B985E2CBC8DAB8EDD2A54A73C5BB19DE2F4D93%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1496896450723287%26source%3Dyoutube%26dur%3D147.481%26clen%3D897447%26expire%3D1508439975%26itag%3D249%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26keepalive%3Dyes%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Daudio%252Fwebm%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026clen=897447,bitrate=76896\u0026type=audio%2Fwebm%3B+codecs%3D%22opus%22\u0026index=272-523\u0026init=0-271\u0026projection_type=1\u0026lmt=1496896424664821\u0026itag=250\u0026xtags=\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3DAD8C2E7E43E06B0962080B845DFC20F533CA434A.716FB1F8AF487CB5D2C64CCBFF6778A760F728AB%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1496896424664821%26source%3Dyoutube%26dur%3D147.481%26clen%3D1194050%26expire%3D1508439975%26itag%3D250%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26keepalive%3Dyes%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Daudio%252Fwebm%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026clen=1194050,bitrate=146380\u0026type=audio%2Fwebm%3B+codecs%3D%22opus%22\u0026index=272-523\u0026init=0-271\u0026projection_type=1\u0026lmt=1496896434301255\u0026itag=251\u0026xtags=\u0026url=https%3A%2F%2Fr4---sn-2aqu-hoaed.googlevideo.com%2Fvideoplayback%3Fgir%3Dyes%26signature%3D99C2692AF6AF441904A40435522D8E3C19F9470F.22A603EB789EB65CEA5FAECD10C73F51937048BF%26key%3Dyt6%26requiressl%3Dyes%26lmt%3D1496896434301255%26source%3Dyoutube%26dur%3D147.481%26clen%3D2364351%26expire%3D1508439975%26itag%3D251%26id%3Do-AFU5yeayJLmc1s2HSle8qtnqAO9l4e8PLBBa5rYPIpk8%26mm%3D31%26mn%3Dsn-2aqu-hoaed%26keepalive%3Dyes%26pl%3D23%26ip%3D49.150.238.154%26ei%3DR6PoWeLyB5K_qQG3x6GIDw%26ms%3Dau%26mt%3D1508418234%26mv%3Dm%26ipbits%3D0%26initcwndbps%3D260000%26mime%3Daudio%252Fwebm%26sparams%3Dclen%252Cdur%252Cei%252Cgir%252Cid%252Cinitcwndbps%252Cip%252Cipbits%252Citag%252Ckeepalive%252Clmt%252Cmime%252Cmm%252Cmn%252Cms%252Cmv%252Cpl%252Crequiressl%252Csource%252Cexpire\u0026clen=2364351","thumbnail_url":"https:\/\/i.ytimg.com\/vi\/jRiQX9TsiyQ\/default.jpg","afv":true,"videostats_playback_base_url":"https:\/\/s.youtube.com\/api\/stats\/playback?of=J2sH9WHBSKrG6-nmRKkn9Q\u0026fexp=23700271%2C23700497%2C23701005%2C23701019%2C23702322%2C23702700%2C23703455%2C23704248%2C23705485%2C23705739%2C23705906%2C23706129%2C23706155%2C23707713%2C23709257%2C23709584%2C9422596%2C9431754%2C9449243%2C9467502%2C9471235%2C9474594%2C9476026%2C9476327%2C9480475%2C9484237%2C9484938%2C9485000%2C9488038\u0026vm=CAEQARgE\u0026cl=172568519\u0026len=148\u0026sdetail=rv%3AXd0Ok-MkqoE\u0026referrer=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DXd0Ok-MkqoE\u0026sourceid=yw\u0026ei=R6PoWeLyB5K_qQG3x6GIDw\u0026docid=jRiQX9TsiyQ\u0026el=detailpage\u0026plid=AAVb5gVuhPAa-AMq\u0026ns=yt","video_id":"jRiQX9TsiyQ","c":"WEB","ad_logging_flag":"1","cbr":"Chrome","player_error_log_fraction":"1.0","ad_tag":"https:\/\/pubads.g.doubleclick.net\/gampad\/ads?ad_rule=0\u0026ciu_szs=300x250,300x60\u0026eid=165720538\u0026env=vp\u0026gdfp_req=1\u0026iu=\/4061\/com.ytpwatch.autosandvehicles\u0026osd=2\u0026output=xml_vast3\u0026pucrd=CgYIABAAGAA\u0026scor=1\u0026scp=av%3D1%26kpeid%3DUTD4hr_kXIwrZL5MKCjyOw%26kpid%3D13170463%26kpu%3DCarjamRadio%26kvid%3DjRiQX9TsiyQ%26mpvid%3DtkhTZrIl0MG2TAIp%26ssl%3D1%26afv%3D1%26dbp%3DChZKMnNIOVdIQlNLckc2LW5tUktrbjlREAEgASgA%26dc_yt%3D1%26excl_cat%3D13170463%26k2%3D12,47,806%26k5%3D12_47_806%26kclg%3D1%26kcountry%3Dph%26kga%3D-1%26kgg%3D-1%26kgpt%3D1%26klg%3Dfil%26kmyd%3Dwatch-longform-ad%26ko%3Dp%26kr%3DF%26ktype%3Dgptc%26kvlg%3Den%26kvz%3D203%26nlfb%3D1%26pos%3Dpre%26yt3pav%3D1%26ytcat%3D2%26ytdevice%3D1%26ytdevicever%3D1.20171018%26ytexp%3D9422596,9471235,9474594,9484938,9488991,23700497,23701005,23702700,23703455,23705778,23705906,23706155,23707713,23709257,23709584%26yt_ec%3D1%26yt_ec2%3D11%26yt_vrallowed%3D1%26yt_viral%3D1\u0026sdki=18803DAD\u0026sz=480x361%7C480x70\u0026unviewed_position_start=1\u0026vid=jRiQX9TsiyQ\u0026vpos=preroll\u0026ytdevice=1\u0026yt_pt=APb3F2-7tfVfNTwyIh16doe2YHs8zAJNeSNCmZpXPsKSXKQA9vdPn73DKE3n1k6IjxZAyLVLFOZdnPTknGJURPSnkpHU4BYGY0MiMiuuiOfxsRuRzH-ExDG1OW4SE8-JPNEwhIqlWqccoauduZI2","cid":"13170463","innertube_api_key":"AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8","innertube_api_version":"v1","ldpj":"-29","tag_for_child_directed":false,"encoded_ad_safety_reason":"CgA","loaderUrl":"https:\/\/www.youtube.com\/watch?v=jRiQX9TsiyQ","csi_page_type":"watch,watch7ad_html5","fflags":"html5_progressive_signature_reload=true\u0026html5_minimum_readahead_seconds=0.0\u0026enable_offer_restricts_for_watch_page_offers=true\u0026html5_min_startup_smooth_target=10.0\u0026html5_get_video_info_timeout_ms=0\u0026enable_playlist_multi_season=true\u0026fix_gpt_pos_params=true\u0026lightweight_watch_video_swf=true\u0026html5_msi_error_fallback=true\u0026use_new_style=true\u0026android_native_live_enablement=true\u0026mobile_disable_ad_mob_on_home=true\u0026chrome_promo_enabled=true\u0026html5_video_tbd_min_kb=0\u0026uniplayer_dbp=true\u0026html5_get_video_info_promiseajax=true\u0026disable_indisplay_adunit_on_embedded=true\u0026html5_desktop_serverside_get_biscotti_id_from_client=true\u0026mweb_muted_autoplay=true\u0026html5_disable_urgent_upgrade_for_quality=true\u0026html5_request_sizing_multiplier=0.8\u0026polymer_report_missing_web_navigation_endpoint=false\u0026html5_variability_full_discount_thresh=3.0\u0026html5_observe_live_start_seconds=true\u0026html5_no_shadow_env_data=false\u0026kids_enable_server_side_assets=false\u0026html5_always_enable_timeouts=true\u0026mweb_playsinline_webview=true\u0026enable_plus_page_pts=true\u0026postroll_notify_time_seconds=5\u0026html5_throttle_rate=0.0\u0026kids_enable_post_onboarding_red_flow=true\u0026html5_clearance_fix=true\u0026live_fresca_v2=true\u0026html5_ad_loudness_penalty_db=0\u0026disable_max_adsense_channel_limit=true\u0026kids_enable_block_servlet=true\u0026sdk_ad_prefetch_time_seconds=-1\u0026variable_load_timeout_ms=0\u0026html5_enable_embedded_player_visibility_signals=true\u0026html5_request_size_max_secs=31\u0026html5_license_constraint_delay=0\u0026html5_sticky_ignore_capped=true\u0026embed_show_watchlater_login=true\u0026yto_enable_unlimited_landing_page_yto_features=true\u0026html5_ad_no_buffer_abort_after_skippable=true\u0026kids_mqb_use_confirmed_safe_videos_only=false\u0026yt_unlimited_pts_skip_ads_promo_desktop_always=true\u0026playready_on_borg=true\u0026html5_disable_audio_slicing=true\u0026www_for_videostats=true\u0026sponsors_whitelist_creator=true\u0026yto_feature_hub_channel=false\u0026limit_of_rebuffering_event_on_html5=1000\u0026html5_error_reload_cooldown_ms=0\u0026custom_emoji_creator=true\u0026html5_suspended_state=true\u0026html5_live_4k_more_buffer=true\u0026enable_afv_div_reset_in_kevlar=true\u0026vss_dni_delayping=0\u0026report_promotes_terrorism_polymer=true\u0026lugash_header_warmup=true\u0026html5_serverside_call_server_on_biscotti_timeout=true\u0026forced_brand_precap_duration_ms=2000\u0026signed_out_notifications_inbox=true\u0026html5_reselect_bandwidth_factor=3.0\u0026html5_stale_dash_manifest_retry_factor=1.0\u0026html5_default_quality_cap=0\u0026fixed_padding_skip_button=true\u0026html5_manifestless_no_redundant_seek_to_head=true\u0026mweb_playsinline=true\u0026html5_variability_discount=0.5\u0026lock_fullscreen=false\u0026ios_enable_mixin_accessibility_custom_actions=true\u0026html5_aspect_from_adaptive_format=true\u0026ios_notifications_disabled_subs_tab_promoted_item_promo=true\u0026html5_new_fallback=true\u0026html5_prefer_server_bwe2=true\u0026html5_timeupdate_readystate_check=true\u0026stop_using_ima_sdk_gpt_request_activity=true\u0026enable_prefetch_for_postrolls=true\u0026html5_restrict_streaming_xhr_on_sqless_requests=true\u0026exclude_pyv_overlays_on_desktop_watch=true\u0026enable_local_channel=true\u0026html5_platform_minimum_readahead_seconds=0.0\u0026show_countdown_on_bumper=true\u0026allow_live_autoplay=true\u0026android_buy_bucket_buy_flows=true\u0026sdk_wrapper_levels_allowed=0\u0026ad_video_end_renderer_duration_milliseconds=7000\u0026channel_about_page_gadgets=true\u0026html5_deadzone_multiplier=1.0\u0026android_enable_thumbnail_overlay_side_panel=false\u0026enable_ccs_buy_flow_for_chirp=true\u0026html5_strip_emsg=true\u0026segment_volume_reporting=true\u0026report_promotes_terrorism_ios=true\u0026enable_bulleit_lidar_integration=true\u0026show_thumbnail_on_standard=true\u0026web_player_edge_autohide_killswitch=true\u0026html5_background_quality_cap=360\u0026mweb_enable_skippables_on_iphone=true\u0026sidebar_renderers=true\u0026html5_live_disable_dg_pacing=true\u0026sponsors_disable=true\u0026html5_stop_video_in_cancel_playback=true\u0026html5_break_deadlocks=true\u0026desktop_cleanup_companion_on_instream_begin=true\u0026dash_manifest_version=5\u0026html5_max_buffer_duration=0\u0026html5_local_max_byterate_lookahead=15\u0026html5_ultra_low_latency_streaming_responses=true\u0026html5_request_size_min_secs=0.0\u0026html5_connect_timeout_secs=7.0\u0026kids_enable_terms_servlet=true\u0026use_forced_linebreak_preskip_text=true\u0026disable_trusted_ad_domains_player_check=true\u0026disable_client_side_midroll_freq_capping=true\u0026html5_env_data_update_app_only=true\u0026send_html5_api_stats_ads_abandon=true\u0026lugash_header_by_service=true\u0026dynamic_ad_break_seek_threshold_sec=0\u0026interaction_log_delayed_event_batch_size=200\u0026html5_hopeless_mode_request_size_secs=15\u0026html5_suspend_manifest_on_pause=true\u0026report_promotes_terrorism_desktop=true\u0026yto_enable_watch_offer_module=true\u0026html5_min_buffer_to_resume=6\u0026html5_subsegment_readahead_tail_margin_secs=0.2\u0026mysubs_highlight_shelf_counterfactual=false\u0026web_player_disable_flash_watch=true\u0026html5_enable_ms_playready_hd=true\u0026use_new_skip_icon=true\u0026html5_mobile_perf_cap_240=true\u0026max_resolution_for_white_noise=360\u0026tvhtml5_background_su=true\u0026html5_el_migration=true\u0026flex_theater_mode=true\u0026html5_preload_size_excludes_metadata=true\u0026report_promotes_terrorism_mobile_web=true\u0026new_promo_page=true\u0026html5_variability_no_discount_thresh=1.0\u0026disable_reporting_html5_no_vast_ads_as_error=true\u0026html5_disable_move_pssh_to_moov=true\u0026html5_min_secs_over_max_bytes=true\u0026html5_serverside_call_server_on_biscotti_error=true\u0026disable_search_mpu=true\u0026html5_bandwidth_window_size=0\u0026midroll_notify_time_seconds=5\u0026html5_aux_pctile=true\u0026html5_tight_max_buffer_allowed_impaired_time=0.0\u0026html5_repredict_interval_secs=0.0\u0026unplugged_web_location_accuracy=true\u0026ad_duration_threshold_for_showing_endcap_seconds=15\u0026html5_subsegment_readahead_target_buffer_health_secs=0.5\u0026doubleclick_gpt_retagging=true\u0026enable_red_carpet_p13n_shelves=true\u0026use_html5_player_event_timeout=true\u0026mweb_autonav_paddles=true\u0026persist_text_on_preview_button=true\u0026html5_enable_mesh_projection=true\u0026playready_first_play_expiration=-1\u0026mweb_pu_android_chrome_54_above=true\u0026web_player_flash_fallback_killswitch=true\u0026html5_report_conn=true\u0026kids_eliminate_playlists_in_channels=true\u0026live_chunk_readahead=3\u0026mweb_muted_autoplay_animation=shrink\u0026html5_min_readbehind_cap_secs=0\u0026info_box_for_promotes_terrorism_reporting=true\u0026disable_mweb_iphone_ad_click_handling_functionality=true\u0026mweb_cougar=true\u0026king_crimson_player_redux=true\u0026yto_enable_ytr_promo_refresh_assets=true\u0026website_actions_throttle_percentage=1.0\u0026mweb_blacklist_progressive_chrome_mobile=true\u0026ios_enable_mainapp_playlist_sync_worker=false\u0026html5_new_peg_to_live_v2=true\u0026report_promotes_terrorism_android=true\u0026web_player_disable_flash_playerproxy=true\u0026html5_max_av_sync_drift=50\u0026html5_elbow_tracking_tweaks=true\u0026use_fast_fade_in_0s=true\u0026deprecate_get_video_metadata=true\u0026enable_gaming_new_logo=true\u0026kids_enable_privacy_notice=true\u0026html5_composite_stall=true\u0026html5_quality_cap_min_age_secs=0\u0026html5_post_interrupt_readahead=20\u0026autoplay_time=8000\u0026html5_nnr_downgrade_count=4\u0026dynamic_ad_break_pause_threshold_sec=0\u0026html5_subsegment_readahead_progress_timeout_fraction=0.8\u0026html5_pause_video_fix=true\u0026spacecast_uniplayer_decorate_manifest=true\u0026html5_max_headm_for_streaming_xhr=0\u0026mpu_visible_threshold_count=2\u0026html5_serverside_biscotti_id_wait_ms=1000\u0026html5_tight_max_buffer_allowed_bandwidth_stddevs=0.0\u0026html5_throttle_burst_secs=15.0\u0026mweb_cougar_big_controls=true\u0026legacy_autoplay_flag=true\u0026new_logo=false\u0026html5_ad_stats_bearer=true\u0026custom_emoji_legacy=true\u0026show_thumbnail_behind_ypc_offer_module=true\u0026live_readahead_seconds_multiplier=0.8\u0026html5_dom_pause=true\u0026html5_manifestless_accurate_sliceinfo=true\u0026kids_asset_theme=server_side_assets\u0026html5_new_e2e_latency_tracking=true\u0026ios_disable_notification_preprompt=true\u0026html5_max_readahead_bandwidth_cap=0\u0026web_embedded_player_service=true\u0026enable_finished_broadcast_reactr_sharing=false\u0026html5_allowable_liveness_drift_chunks=2\u0026website_actions_cta_redesign=true\u0026html5_subsegment_readahead_timeout_secs=2.0\u0026html5_adjust_effective_request_size=true\u0026signed_out_notification_settings=true\u0026html5_max_buffer_health_for_downgrade=15\u0026html5_min_readbehind_secs=0\u0026player_destroy_old_version=true\u0026html5_disable_non_contiguous=true\u0026web_player_api_logging_fraction=0.01\u0026html5_live_pin_to_tail=true\u0026html5_min_upgrade_health=0\u0026enable_live_state_auth=true\u0026html5_spherical_bicubic_mode=0\u0026html5_use_adaptive_live_readahead=true\u0026html5_maximum_readahead_seconds=0.0\u0026mweb_autonav=true\u0026king_crimson_player=false\u0026html5_deferred_source_buffer_creation=true\u0026html5_pipeline_ultra_low_latency=true\u0026html5_min_secs_between_format_selections=8.0\u0026html5_background_cap_idle_secs=60\u0026youtubei_for_web=true\u0026disable_new_pause_state3=true\u0026live_chat_v1_turndown=true\u0026use_push_for_desktop_live_chat=true","cver":"1.20171018","of":"J2sH9WHBSKrG6-nmRKkn9Q","midroll_prefetch_size":"1","sffb":true,"eventid":"R6PoWeLyB5K_qQG3x6GIDw","no_get_video_log":"1","dclk":true,"xhr_apiary_host":"youtubei.youtube.com","afv_ad_tag":"https:\/\/googleads.g.doubleclick.net\/pagead\/ads?ad_type=text_image\u0026channel=Vertical_12%2BVertical_47%2BVertical_806%2Bafv_overlay%2Bafv_user_carjamradio%2Bafv_user_id_UTD4hr_kXIwrZL5MKCjyOw%2Binvideo_overlay_480x70_cat2%2Byt_cid_13170463%2Byt_mpvid_tkhTZrIl0MG2TAIp%2Byt_no_ap%2Byt_no_wa%2Bytdevice_1%2Bytdevicever_1.20171018%2Bytel_detailpage%2Bytps_default\u0026client=ca-pub-6219811747049371\u0026dbp=ChZKMnNIOVdIQlNLckc2LW5tUktrbjlREAEgASgA\u0026description_url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FjRiQX9TsiyQ\u0026hl=fi\u0026host=ca-host-pub-5683987065459176\u0026ht_id=6627525\u0026loeid=9422596,9471235,9474594,9484938,9488991,23700497,23701005,23702700,23703455,23705778,23705906,23706155,23707713,23709257,23709584\u0026osd=2\u0026pucrd=CgYIABAAGAA\u0026sdki=18803DAD\u0026url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FjRiQX9TsiyQ\u0026v_p=DR9wez8l2X7wQw%3D%3D\u0026ytdevice=1\u0026ytdevicever=1.20171018\u0026yt_pt=APb3F2-7tfVfNTwyIh16doe2YHs8zAJNeSNCmZpXPsKSXKQA9vdPn73DKE3n1k6IjxZAyLVLFOZdnPTknGJURPSnkpHU4BYGY0MiMiuuiOfxsRuRzH-ExDG1OW4SE8-JPNEwhIqlWqccoauduZI2\u0026yt_vis=0","enabled_engage_types":"1,3,4,5,6,17","oid":"6PAjbgl8X_yFyeZOCM16Zw","t":"1","author":"CARJAM TV","apply_fade_on_midrolls":true,"trueview":true,"timestamp":"1508418375","allow_html5_ads":"1"},"min_version":"8.0.0","assets":{"js":"\/yts\/jsbin\/player-vflcNAJUd\/fil_PH\/base.js","css":"\/yts\/cssbin\/player-vflBaThbO\/www-player-webp.css"}};ytplayer.load = function() {yt.player.Application.create("player-api", ytplayer.config);ytplayer.config.loaded = true;};(function() {if (!!window.yt && yt.player && yt.player.Application) {ytplayer.load();}}());</script>
+
+
+    <div id="watch-queue-mole" class="video-mole mole-collapsed hid"><div id="watch-queue" class="watch-playlist player-height"><div class="main-content"><div class="watch-queue-header"><div class="watch-queue-info"><div class="watch-queue-info-icon"><span class="tv-queue-list-icon yt-sprite"></span></div><h3 class="watch-queue-title">Queue ng Papanoorin</h3><h3 class="tv-queue-title">Queue</h3><span class="tv-queue-details"></span></div><div class="watch-queue-control-bar control-bar-button"><div class="watch-queue-mole-info"><div class="watch-queue-control-bar-icon"><span class="watch-queue-icon yt-sprite"></span></div><div class="watch-queue-title-container"><span class="watch-queue-count"></span><span class="watch-queue-title">Queue ng Papanoorin</span><span class="tv-queue-title">Queue</span></div></div>  <span class="dark-overflow-action-menu">
+    
+    
+    <button class="flip control-bar-button yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon no-icon-markup yt-uix-button-empty" type="button" aria-haspopup="true" aria-expanded="false" onclick=";return false;" aria-label="Mga pagkilos para sa queue"><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu hid" role="menu" aria-haspopup="true"><li role="menuitem"><span class="watch-queue-menu-choice overflow-menu-choice yt-uix-button-menu-item" data-action="remove-all" onclick=";return false;">Alisin lahat</span></li><li role="menuitem"><span class="watch-queue-menu-choice overflow-menu-choice yt-uix-button-menu-item" data-action="disconnect" onclick=";return false;">Idiskonekta</span></li></ul></button>
+  </span>
+  <div class="watch-queue-controls">
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button prev-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Nakaraang video"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-prev yt-sprite"></span></span></button>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button play-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="I-play"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-play yt-sprite"></span></span></button>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button pause-watch-queue-button yt-uix-button-opacity yt-uix-tooltip hid yt-uix-tooltip" type="button" onclick=";return false;" title="I-pause"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-pause yt-sprite"></span></span></button>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button next-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Susunod na video"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-next yt-sprite"></span></span></button>
+  </div>
+</div><div class="autoplay-dismiss-bar fade-out"><span class="autoplay-dismiss-title-label">Magsisimula na ang susunod na video</span><span><button class="yt-uix-button yt-uix-button-size-default autoplay-dismiss-button yt-uix-tooltip" type="button" onclick=";return false;" title="itigil"><span class="yt-uix-button-content">itigil</span></button></span></div></div><div class="watch-queue-items-container yt-scrollbar-dark yt-scrollbar"><div class="yt-uix-scroller playlist-videos-list"><ol class="watch-queue-items-list" data-scroll-action="yt.www.watchqueue.loadThumbnails">  <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+Naglo-load...
+    </span>
+  </p>
+</ol><div class="autoplay-control-container yt-uix-scroller-scroll-unit hid">  <div class="autoplay-control-bar">
+    <label class="autoplay-label" for="autoplay-toggle-id"></label>
+    <label class="yt-uix-form-input-checkbox-container yt-uix-form-input-container yt-uix-form-input-paper-toggle-container "><input class="yt-uix-form-input-checkbox" type="checkbox" id="autoplay-toggle-id"><div class="yt-uix-form-input-paper-toggle-bg yt-uix-form-input-paper-toggle-bar"></div><div class="yt-uix-form-input-paper-toggle-bg yt-uix-form-input-paper-toggle-button"></div></label>
+  </div>
+</div><div class="up-next-item-container hid"></div></div></div></div>  <div class="hid">
+    <div id="watch-queue-title-msg">
+Queue ng Papanoorin
+    </div>
+
+    <div id="tv-queue-title-msg">Queue</div>
+
+    <div id="watch-queue-count-msg">
+__count__/__total__
+    </div>
+
+    <div id="watch-queue-loading-template">
+      <!--
+          <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+Naglo-load...
+    </span>
+  </p>
+
+      -->
+    </div>
+  </div>
+</div></div>
+    <div id="player-playlist" class="  content-alignment    watch-player-playlist  ">
+          
+
+    </div>
+
+  </div>
+
+  <div class="clear"></div>
+</div><div id="content" class="  content-alignment" role="main">      <div id="placeholder-player">
+    <div class="player-api player-width player-height"></div>
+  </div>
+
+  <div id="watch7-container" class="">
+      <div id="player-messages">
+  </div>
+    
+  <div id="watch7-main-container">
+    <div id="watch7-main" class="clearfix">
+      <div id="watch7-preview" class="player-width player-height hid">
+      </div>
+      <div id="watch7-content" class="watch-main-col " itemscope="" itemid="" itemtype="http://schema.org/VideoObject">
+              <link itemprop="url" href="https://www.youtube.com/watch?v=jRiQX9TsiyQ">
+    <meta itemprop="name" content="2013 Bugatti Veyron 16.4 Grand Sport Vitesse Commercial - Carjam TV Car Show 2013">
+    <meta itemprop="description" content="CARJAM TV - Subscribe Here Now http://www.youtube.com/carjamradio Like Us Now On Facebook: http://www.facebook.com/CarjamTV For The World&#39;s Best Car Videos W...">
+    <meta itemprop="paid" content="False">
+
+      <meta itemprop="channelId" content="UCUTD4hr_kXIwrZL5MKCjyOw">
+      <meta itemprop="videoId" content="jRiQX9TsiyQ">
+
+      <meta itemprop="duration" content="PT2M28S">
+      <meta itemprop="unlisted" content="False">
+
+        <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <link itemprop="url" href="http://www.youtube.com/user/CarjamRadio">
+        </span>
+        <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <link itemprop="url" href="https://plus.google.com/109359858941974852557">
+        </span>
+
+          <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "http:\/\/www.youtube.com\/user\/CarjamRadio",
+            "name": "CARJAM TV"
+          }
+        }
+      ]
+    }
+    </script>
+
+
+    <link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi/jRiQX9TsiyQ/maxresdefault.jpg">
+    <span itemprop="thumbnail" itemscope="" itemtype="http://schema.org/ImageObject">
+      <link itemprop="url" href="https://i.ytimg.com/vi/jRiQX9TsiyQ/maxresdefault.jpg">
+      <meta itemprop="width" content="1280">
+      <meta itemprop="height" content="720">
+    </span>
+
+      <link itemprop="embedURL" href="https://www.youtube.com/embed/jRiQX9TsiyQ">
+      <meta itemprop="playerType" content="HTML5 Flash">
+      <meta itemprop="width" content="1280">
+      <meta itemprop="height" content="720">
+
+      <meta itemprop="isFamilyFriendly" content="True">
+      <meta itemprop="regionsAllowed" content="AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH,ER,ES,ET,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GS,GT,GU,GW,GY,HK,HM,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PN,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SH,SI,SJ,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TF,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,UM,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW">
+      <meta itemprop="interactionCount" content="321193">
+      <meta itemprop="datePublished" content="2012-04-15">
+      <meta itemprop="genre" content="Autos &amp; Vehicles">
+
+
+          
+
+        <div id="watch-header" class="yt-card yt-card-has-padding">
+      <div id="watch7-headline" class="clearfix">
+    <div id="watch-headline-title">
+      <h1 class="watch-title-container">
+        
+
+
+  <span id="eow-title" class="watch-title" dir="ltr" title="2013 Bugatti Veyron 16.4 Grand Sport Vitesse Commercial - Carjam TV Car Show 2013">
+    2013 Bugatti Veyron 16.4 Grand Sport Vitesse Commercial - Carjam TV Car Show 2013
+  </span>
+
+      </h1>
+    </div>
+  </div>
+
+    <div id="watch7-user-header" class=" spf-link ">  <a href="/user/CarjamRadio" class="yt-user-photo g-hovercard yt-uix-sessionlink      spf-link " data-ytid="UCUTD4hr_kXIwrZL5MKCjyOw" data-sessionlink="itct=CDQQ4TkiEwiisrCr4PzWAhWSXyoKHbdjCPEo-B0">
+      <span class="video-thumb  yt-thumb yt-thumb-48 g-hovercard" data-ytid="UCUTD4hr_kXIwrZL5MKCjyOw">
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        
+  <img src="images/pixel-vfl3z5WfW.gif" height="48" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" width="48" data-thumb="https://yt3.ggpht.com/-19oOI-64FRI/AAAAAAAAAAI/AAAAAAAAAAA/Whu13akf2Vg/s88-c-k-no-mo-rj-c0xffffff/photo.jpg" data-ytimg="1" alt="CARJAM TV">
+
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+
+  </a>
+  <div class="yt-user-info">
+    <a href="/channel/UCUTD4hr_kXIwrZL5MKCjyOw" class="g-hovercard yt-uix-sessionlink       spf-link " data-ytid="UCUTD4hr_kXIwrZL5MKCjyOw" data-sessionlink="itct=CDQQ4TkiEwiisrCr4PzWAhWSXyoKHbdjCPEo-B0">CARJAM TV</a>
+  </div>
+<span id="watch7-subscription-container"><span class=" yt-uix-button-subscription-container"><span class="unsubscribe-confirmation-overlay-container">  
+  <div class="yt-uix-overlay " data-overlay-style="primary" data-overlay-shape="tiny">
+    
+        <div class="yt-dialog hid ">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg" role="dialog">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+Naglo-load...
+    </span>
+  </p>
+
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div class="unsubscribe-confirmation-overlay-content-container">
+    <div class="unsubscribe-confirmation-overlay-content">
+      <div class="unsubscribe-confirmation-message">
+        Mag-unsubscribe mula sa CARJAM TV?
+      </div>
+    </div>
+
+    <div class="yt-uix-overlay-actions">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-overlay-close" type="button" onclick=";return false;"><span class="yt-uix-button-content">Kanselahin</span></button>
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-primary overlay-confirmation-unsubscribe-button yt-uix-overlay-close" type="button" onclick=";return false;"><span class="yt-uix-button-content">Mag-unsubscribe</span></button>
+    </div>
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div class="yt-dialog-working-overlay"></div>
+  <div class="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+        Gumagawa...
+    </span>
+  </p>
+
+      </div>
+  </div>
+
+          </div>
+        </div>
+        <div class="yt-dialog-focus-trap" tabindex="0"></div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+</span><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-subscribe-branded yt-uix-button-has-icon no-icon-markup yt-uix-subscription-button yt-can-buffer yt-uix-servicelink vve-check" type="button" onclick=";return false;" aria-live="polite" aria-busy="false" data-servicelink="CDUQmysiEwiisrCr4PzWAhWSXyoKHbdjCPEo-B0yBXdhdGNo" data-visibility-tracking="CDUQmysiEwiisrCr4PzWAhWSXyoKHbdjCPEo-B0yBXdhdGNo" data-show-unsub-confirm-dialog="true" data-show-unsub-confirm-time-frame="always" data-subscribed-timestamp="0" data-href="https://accounts.google.com/ServiceLogin?service=youtube&amp;hl=fil&amp;passive=true&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Ffeature%3Dsubscribe%26next%3D%252Fchannel%252FUCUTD4hr_kXIwrZL5MKCjyOw%26hl%3Dfil%26continue_action%3DQUFFLUhqbUVmUHFjS2lYUDJZd0czUE4tTHpzYldUWlZvUXxBQ3Jtc0tudXlHUGwzV09jR1VvUWNWTmNqcmMyUWQwY2EtQ19YWGZVSUdTYWtkVUw3S3o5MWhGWG8xeHR6TGRQNFM0djFhRGhTUDBqR2E5bXBteDZvekJEaDl4S0ZCYjNxUjJFWUhSemFBN2VXVmJneUtRLXpRbkw2WGktTkYtbE9sWGdnZHA5WVVNSm53cEhIcW5iUmVvb0tObUNSbmk0ZDAyLUxSYnRITUpjbkU0WFJabjJ6MFJFbzJFMWNhWC1MZnpDY00wVjhLTWJBN1p0TVdLalVHVE8zRElTcXpKTU1R%26action_handle_signin%3Dtrue%26app%3Ddesktop&amp;uilel=3" data-style-type="branded" data-clicktracking="itct=CDUQmysiEwiisrCr4PzWAhWSXyoKHbdjCPEo-B0yBXdhdGNo" data-channel-external-id="UCUTD4hr_kXIwrZL5MKCjyOw"><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Mag-subscribe">Mag-subscribe</span><span class="subscribed-label" aria-label="Mag-unsubscribe">Naka-subscribe</span><span class="unsubscribe-label" aria-label="Mag-unsubscribe">Mag-unsubscribe</span></span></button><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon yt-uix-subscription-preferences-button" type="button" onclick=";return false;" aria-live="polite" aria-busy="false" aria-role="button" aria-label="Mga kagustuhan sa subscription" data-channel-external-id="UCUTD4hr_kXIwrZL5MKCjyOw"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-subscription-preferences yt-sprite"></span></span></button><span class="yt-subscription-button-subscriber-count-branded-horizontal yt-subscriber-count" title="191K" aria-label="191K" tabindex="0">191K</span>  <span class="subscription-preferences-overlay-container">
+    
+  <div class="yt-uix-overlay " data-overlay-style="primary" data-overlay-shape="tiny">
+    
+        <div class="yt-dialog hid ">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg" role="dialog">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+Naglo-load...
+    </span>
+  </p>
+
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div class="subscription-preferences-overlay-content-container">
+    <div class="subscription-preferences-overlay-loading ">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+Naglo-load...
+    </span>
+  </p>
+
+    </div>
+    <div class="subscription-preferences-overlay-content">
+    </div>
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div class="yt-dialog-working-overlay"></div>
+  <div class="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+        Gumagawa...
+    </span>
+  </p>
+
+      </div>
+  </div>
+
+          </div>
+        </div>
+        <div class="yt-dialog-focus-trap" tabindex="0"></div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+  </span>
+</span></span></div>
+    <div id="watch8-action-buttons" class="watch-action-buttons clearfix"><div id="watch8-secondary-actions" class="watch-secondary-actions yt-uix-button-group" data-button-toggle-group="optional">    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup yt-uix-clickcard-target addto-button pause-resume-autoplay yt-uix-tooltip" type="button" onclick=";return false;" title="Idagdag sa" data-orientation="vertical" data-position="bottomleft"><span class="yt-uix-button-content">Idagdag sa</span></button>
+        <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Gusto mo bang panoorin itong muli sa ibang pagkakataon?</h3>
+    <div class="signin-clickcard-message">
+      Mag-sign in upang idagdag ang video na ito sa isang playlist.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?service=youtube&hl=fil&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Ffeature%3D__FEATURE__%26next%3D%252Fwatch%253Fv%253DjRiQX9TsiyQ%26hl%3Dfil%26action_handle_signin%3Dtrue%26app%3Ddesktop&uilel=3" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=R6PoWeLyB5K_qQG3x6GIDw"><span class="yt-uix-button-content">Mag-sign in</span></a>
+  </div>
+
+    </span>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup pause-resume-autoplay action-panel-trigger action-panel-trigger-share   yt-uix-tooltip" type="button" onclick=";return false;" title="Ibahagi
+" data-trigger-for="action-panel-share" data-button-toggle="true"><span class="yt-uix-button-content">Ibahagi
+</span></button>
+<div class="yt-uix-menu ">  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup pause-resume-autoplay yt-uix-menu-trigger yt-uix-tooltip" type="button" onclick=";return false;" id="action-panel-overflow-button" aria-pressed="false" aria-haspopup="true" role="button" title="Marami pang pagkilos" aria-label="Action menu."><span class="yt-uix-button-content">Higit pa</span></button>
+<div class="yt-uix-menu-content yt-ui-menu-content yt-uix-menu-content-hidden" role="menu"><ul id="action-panel-overflow-menu">  <li>
+      <span class="yt-uix-clickcard" data-card-class="report-card">
+          <button type="button" class="yt-ui-menu-item has-icon action-panel-trigger action-panel-trigger-report report-button yt-uix-clickcard-target" data-orientation="horizontal" data-position="topright">
+    <span class="yt-ui-menu-item-label">Iulat</span>
+  </button>
+
+          <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Kailangan mo bang iulat ang video?</h3>
+    <div class="signin-clickcard-message">
+      Mag-sign in upang mag-ulat ng hindi angkop na nilalaman.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?service=youtube&hl=fil&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Ffeature%3D__FEATURE__%26next%3D%252Fwatch%253Fv%253DjRiQX9TsiyQ%26hl%3Dfil%26action_handle_signin%3Dtrue%26app%3Ddesktop&uilel=3" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=R6PoWeLyB5K_qQG3x6GIDw"><span class="yt-uix-button-content">Mag-sign in</span></a>
+  </div>
+
+      </span>
+  </li>
+  <a href="/timedtext_video?ref=wt&v=jRiQX9TsiyQ&auto=yes&bl=watch" class="yt-ui-menu-item has-icon action-panel-trigger-translate" rel="nofollow">
+    <span class="yt-ui-menu-item-label">Magdagdag ng mga pagsasalin</span>
+  </a>
+</ul></div></div></div><div id="watch8-sentiment-actions"><div id="watch7-views-info"><div class="watch-view-count">321,193 (na) panonood</div>
+  <div class="video-extras-sparkbars">
+    <div class="video-extras-sparkbar-likes" style="width: 93.4410646388%"></div>
+    <div class="video-extras-sparkbar-dislikes" style="width: 6.55893536122%"></div>
+  </div>
+</div>
+
+
+
+
+  <span class="like-button-renderer " data-button-toggle-group="optional">
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-like-button like-button-renderer-like-button-unclicked yt-uix-clickcard-target   yt-uix-tooltip" type="button" onclick=";return false;" title="Gusto ko ito" aria-label="ang may gusto ng video na ito kasama ang 983 pang tao" data-orientation="vertical" data-position="bottomright" data-force-position="true"><span class="yt-uix-button-content">983</span></button>
+          <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Gusto mo ba ang video na ito?</h3>
+    <div class="signin-clickcard-message">
+      Mag-sign in upang magbigay ng iyong opinyon.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?service=youtube&hl=fil&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Ffeature%3D__FEATURE__%26next%3D%252Fwatch%253Fv%253DjRiQX9TsiyQ%26hl%3Dfil%26action_handle_signin%3Dtrue%26app%3Ddesktop&uilel=3" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=R6PoWeLyB5K_qQG3x6GIDw"><span class="yt-uix-button-content">Mag-sign in</span></a>
+  </div>
+
+    </span>
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-like-button like-button-renderer-like-button-clicked yt-uix-button-toggled  hid yt-uix-tooltip" type="button" onclick=";return false;" title="Hindi gusto" aria-label="ang may gusto ng video na ito kasama ang 983 pang tao" data-orientation="vertical" data-position="bottomright" data-force-position="true"><span class="yt-uix-button-content">984</span></button>
+    </span>
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-dislike-button like-button-renderer-dislike-button-unclicked yt-uix-clickcard-target   yt-uix-tooltip" type="button" onclick=";return false;" title="Hindi ko ito gusto" aria-label="ang nag-dislike sa video na ito kasama ang 69 pang tao" data-orientation="vertical" data-position="bottomright" data-force-position="true"><span class="yt-uix-button-content">69</span></button>
+          <div class="signin-clickcard yt-uix-clickcard-content">
+    <h3 class="signin-clickcard-header">Hindi mo ba gusto ang video na ito?</h3>
+    <div class="signin-clickcard-message">
+      Mag-sign in upang magbigay ng iyong opinyon.
+    </div>
+    <a href="https://accounts.google.com/ServiceLogin?service=youtube&hl=fil&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Ffeature%3D__FEATURE__%26next%3D%252Fwatch%253Fv%253DjRiQX9TsiyQ%26hl%3Dfil%26action_handle_signin%3Dtrue%26app%3Ddesktop&uilel=3" class="yt-uix-button  signin-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=R6PoWeLyB5K_qQG3x6GIDw"><span class="yt-uix-button-content">Mag-sign in</span></a>
+  </div>
+
+    </span>
+    <span class="yt-uix-clickcard">
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-opacity yt-uix-button-has-icon no-icon-markup like-button-renderer-dislike-button like-button-renderer-dislike-button-clicked yt-uix-button-toggled  hid yt-uix-tooltip" type="button" onclick=";return false;" title="Hindi ko ito gusto" aria-label="ang nag-dislike sa video na ito kasama ang 69 pang tao" data-orientation="vertical" data-position="bottomright" data-force-position="true"><span class="yt-uix-button-content">70</span></button>
+    </span>
+  </span>
+</div></div>
+  </div>
+
+
+
+
+  
+
+      <div id="watch-action-panels" class="watch-action-panels yt-uix-button-panel hid yt-card yt-card-has-padding">
+      <div id="action-panel-share" class="action-panel-content hid">
+      <div id="watch-actions-share-loading">
+    <div class="action-panel-loading">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+Naglo-load...
+    </span>
+  </p>
+
+    </div>
+  </div>
+  <div id="watch-actions-share-panel"></div>
+
+  </div>
+
+      <div id="action-panel-stats" class="action-panel-content hid">
+    <div class="action-panel-loading">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+Naglo-load...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+      <div id="action-panel-report" class="action-panel-content hid" data-auth-required="true">
+    <div class="action-panel-loading">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+Naglo-load...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+    
+  <div id="action-panel-rental-required" class="action-panel-content hid">
+      <div id="watch-actions-rental-required">
+    <strong>Ang rating ay available kapag ang video ay na-rent.</strong>
+  </div>
+
+  </div>
+
+  <div id="action-panel-error" class="action-panel-content hid">
+    <div class="action-panel-error">
+      Hindi available ngayon ang feature na ito. Pakisubukang muli sa ibang pagkakataon.
+    </div>
+  </div>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup yt-uix-button-opacity yt-uix-close" type="button" onclick=";return false;" id="action-panel-dismiss" aria-label="Isara" data-close-parent-id="watch8-action-panels"></button>
+  </div>
+
+
+    <div id="promotion-shelf" class="promotion-shelf-slot yt-card yt-card-has-padding hid"></div>
+
+
+    <div id="action-panel-details" class="action-panel-content yt-uix-expander yt-card yt-card-has-padding yt-uix-expander-collapsed"><div id="watch-description" class="yt-uix-button-panel"><div id="watch-description-content"><div id="watch-description-clip"><div id="watch-uploader-info"><strong class="watch-time-text">Na-publish noong Abr 15, 2012</strong></div><div id="watch-description-text" class=""><p id="eow-description" class="">CARJAM TV - Subscribe Here Now  <a href="http://www.youtube.com/carjamradio" class="yt-uix-sessionlink  " data-sessionlink="itct=CDIQ6TgYACITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUiklrKn_YukjI0B" data-url="http://www.youtube.com/carjamradio">http://www.youtube.com/carjamradio</a><br>Like Us Now On Facebook:   <a href="/redirect?redir_token=ny5WKQD_s4YVzBSr6UrWxfTvytN8MTUwODUwNDc3NUAxNTA4NDE4Mzc1&event=video_description&v=jRiQX9TsiyQ&q=http%3A%2F%2Fwww.facebook.com%2FCarjamTV" class="yt-uix-sessionlink  " data-sessionlink="itct=CDIQ6TgYACITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUiklrKn_YukjI0B" data-target-new-window="True" data-url="/redirect?redir_token=ny5WKQD_s4YVzBSr6UrWxfTvytN8MTUwODUwNDc3NUAxNTA4NDE4Mzc1&amp;event=video_description&amp;v=jRiQX9TsiyQ&amp;q=http%3A%2F%2Fwww.facebook.com%2FCarjamTV" target="_blank" rel="nofollow noopener">http://www.facebook.com/CarjamTV</a><br>For The World's Best Car Videos <br>Website:     <a href="/redirect?redir_token=ny5WKQD_s4YVzBSr6UrWxfTvytN8MTUwODUwNDc3NUAxNTA4NDE4Mzc1&event=video_description&v=jRiQX9TsiyQ&q=http%3A%2F%2Fwww.carjam.tv" class="yt-uix-sessionlink  " data-sessionlink="itct=CDIQ6TgYACITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUiklrKn_YukjI0B" data-target-new-window="True" data-url="/redirect?redir_token=ny5WKQD_s4YVzBSr6UrWxfTvytN8MTUwODUwNDc3NUAxNTA4NDE4Mzc1&amp;event=video_description&amp;v=jRiQX9TsiyQ&amp;q=http%3A%2F%2Fwww.carjam.tv" target="_blank" rel="nofollow noopener">http://www.carjam.tv</a><br><br>The Bugatti Veyron EB 16.4 is a mid-engined grand touring car, developed by German manufacturer Volkswagen Group, and produced by French marque Bugatti. It was first introduced in 2005.<br><br>The Super Sport version of the Veyron is the fastest road-legal production car in the world, with a top speed of 431 km/h (268 mph).[4] The original version has a top speed of 408.47 km/h (253.81 mph).[5] It was named Car of the Decade (2000--2009) by the BBC television programme Top Gear.<br><br>Based on the Bentley Hunaudières concept and built at Bugatti's HQ (Château Saint Jean in Molsheim, Alsace, France), the Veyron's chief designer was Hartmut Warkuss, and the exterior was designed by Jozef Kabaň of Volkswagen, with much of the engineering work being conducted under the guidance of engineering chief Wolfgang Schreiber. Though commissioned by Volkswagen, this car is only sold through the Bugatti manufacturers and cannot be found at any Volkswagen dealer.<br>The Veyron has received considerable praise from all three presenters of the popular BBC motoring show Top Gear. While initially skeptical that it would ever be produced, Jeremy Clarkson later declared the Veyron "the greatest car ever made and the greatest car we will ever see in our lifetime." James May described the Veyron as "our Concorde moment." Clarkson test drove the Veyron from Alba, northern Italy to London in a race against James May and Richard Hammond who made the journey in a Cessna 182 aeroplane.<br><br>A few episodes later, James May drove the Veyron at the VW test track and took it to its top speed of 407.16 km/h (253.00 mph). During the second episode of the 13th series, Richard Hammond raced the Veyron against the McLaren F1 driven by The Stig in a one mile (1.6 km) drag race in Abu Dhabi, commenting on Bugatti's "amazing technical achievement" versus the "non gizmo" racing purity of the F1. While the F1 was quicker off the line and remained ahead until both cars were travelling at approximately 200 km/h, the Bugatti overtook its competitor from 200 to 300 km/h, and emerged the victor. Hammond has stated that he did not use the Veyron's launch control in order to make the race more interesting.<br><br>The Veyron also won the award for Car of the Decade in Top Gear's end of 2010 award show. Clarkson commented "It was a car that just rewrote the rule book really, an amazing piece of engineering, a genuine Concorde moment". When the standard version was tested, it did not reach the top of the lap time leader board, which was speculated as being due to the car's considerable weight disadvantage against the other cars towards the top. The SuperSport version, however, achieved the fastest ever time of <a href="#" onclick="yt.www.watch.player.seekTo(1*60+16);return false;">1:16</a>.8 (later beaten by the Ariel Atom V8, the McLaren MP4-12C and the Lamborghini Aventador[45]), as well as being taken to a (verified) average top speed of 431.072 km/h (267.856 mph) by Raphanel on the programme,[46] thenceforth retaking its position as the fastest production car in the world.<br><a href="/redirect?redir_token=ny5WKQD_s4YVzBSr6UrWxfTvytN8MTUwODUwNDc3NUAxNTA4NDE4Mzc1&event=video_description&v=jRiQX9TsiyQ&q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBugatti_Veyron" class="yt-uix-sessionlink  " data-sessionlink="itct=CDIQ6TgYACITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUiklrKn_YukjI0B" data-target-new-window="True" data-url="/redirect?redir_token=ny5WKQD_s4YVzBSr6UrWxfTvytN8MTUwODUwNDc3NUAxNTA4NDE4Mzc1&amp;event=video_description&amp;v=jRiQX9TsiyQ&amp;q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBugatti_Veyron" target="_blank" rel="nofollow noopener">http://en.wikipedia.org/wiki/Bugatti_...</a></p></div>  <div id="watch-description-extras">
+    <ul class="watch-extras-section">
+            <li class="watch-meta-item yt-uix-expander-body">
+    <h4 class="title">
+      Kategorya
+    </h4>
+    <ul class="content watch-info-tag-list">
+        <li><a href="/channel/UCHiJaXgDo_JnsfOmSe-HgzA" class="g-hovercard yt-uix-sessionlink      spf-link " data-ytid="UCHiJaXgDo_JnsfOmSe-HgzA" data-sessionlink="ei=R6PoWeLyB5K_qQG3x6GIDw">Mga Auto &amp; Sasakyan</a></li>
+    </ul>
+  </li>
+
+            <li class="watch-meta-item yt-uix-expander-body">
+    <h4 class="title">
+      Lisensya
+    </h4>
+    <ul class="content watch-info-tag-list">
+        <li>Karaniwang Lisensya sa YouTube</li>
+    </ul>
+  </li>
+
+    </ul>
+  </div>
+</div></div></div>  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-expander yt-uix-expander-head yt-uix-expander-collapsed-body yt-uix-gen204" type="button" onclick=";return false;" data-gen204="feature=watch-show-more-metadata"><span class="yt-uix-button-content">Magpakita nang higit pa</span></button>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-expander yt-uix-expander-head yt-uix-expander-body" type="button" onclick=";return false;"><span class="yt-uix-button-content">Magpakita nang mas kaunti</span></button>
+</div>
+
+
+
+
+        <div id="watch-discussion" class="branded-page-box yt-card">
+          <div class="action-panel-loading">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+Naglo-load...
+    </span>
+  </p>
+
+    </div>
+
+  </div>
+
+
+      </div>
+      <div id="watch7-sidebar" class="watch-sidebar">
+            <div id="placeholder-playlist" class="watch-playlist player-height  hid"></div>
+
+
+
+  <div id="watch7-sidebar-contents" class="watch-sidebar-gutter   yt-card yt-card-has-padding    yt-uix-expander yt-uix-expander-collapsed">
+      <div id="watch7-sidebar-offer">
+        
+      </div>
+
+    <div id="watch7-sidebar-ads">
+              <div id="watch-channel-brand-div" class="">
+      <div id="watch-channel-brand-div-text">
+Advertisement
+      </div>
+      <div id="google_companion_ad_div">
+      </div>
+    </div>
+
+
+    </div>
+    <div id="watch7-sidebar-modules">
+            <div class="watch-sidebar-section">
+    <div class="autoplay-bar">
+      <div class="checkbox-on-off">
+       <label for="autoplay-checkbox">I-autoplay</label>
+       <span class="autoplay-hovercard yt-uix-hovercard">
+          <span class="autoplay-info-icon yt-uix-button-opacity yt-uix-hovercard-target yt-sprite" data-orientation="vertical" data-position="topright"></span>
+<span class="yt-uix-hovercard-content">Kapag naka-enable ang autoplay, awtomatikong susunod na magpe-play ang isang iminumungkahing video.</span>        </span>
+          <span class="yt-uix-checkbox-on-off ">
+<input id="autoplay-checkbox" class="" type="checkbox" checked><label for="autoplay-checkbox" id="autoplay-checkbox-label"><span class="checked"></span><span class="toggle"></span><span class="unchecked"></span></label>  </span>
+
+      </div>
+      <h4 class="watch-sidebar-head">
+        Susunod
+      </h4>
+        <div class="watch-sidebar-body">
+    <ul class="video-list">
+        <li class="video-list-item related-list-item show-video-time">
+          
+
+    <div class="content-wrapper">
+    <a href="/watch?v=oTwex4fj6tE" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCwQpDAYACITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHYXV0b25hdkiklrKn_YukjI0B" title="Mercedes SLS AMG 2013 Classic TV Commercial Carjam TV HD Car TV Show" rel="spf-prefetch" data-visibility-tracking="CCwQpDAYACITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDR1Y-_-NiHnqEB">
+  <span dir="ltr" class="title" aria-describedby="description-id-682634">
+    Mercedes SLS AMG 2013 Classic TV Commercial Carjam TV HD Car TV Show
+  </span>
+  <span class="accessible-description" id="description-id-682634">
+     - Tagal: 2:47.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="autonav" data-ytid="UCUTD4hr_kXIwrZL5MKCjyOw">CARJAM TV</span></span>
+  <span class="stat view-count">203,687 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=oTwex4fj6tE" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCwQpDAYACITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHYXV0b25hdkiklrKn_YukjI0B" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCwQpDAYACITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDR1Y-_-NiHnqEB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="oTwex4fj6tE"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/oTwex4fj6tE/mqdefault_6s.webp?du=3000&amp;sqp=CNSios8F&amp;rs=AOn4CLDR375yAU1XU2ZyyRbmCkpTwhwtOA" style="top: 0px" data-thumb="https://i.ytimg.com/vi/oTwex4fj6tE/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLAQf_DzWApbev9fU8S_tEWHNwdSOw" alt=""><span class="video-time">2:47</span></span></a>
+
+  </div>
+
+
+        </li>
+    </ul>
+  </div>
+
+    </div>
+  </div>
+
+        
+          <div class="watch-sidebar-section">
+      <hr class="watch-sidebar-separation-line">
+    <div class="watch-sidebar-body">
+      <ul id="watch-related" class="video-list">
+          <li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=m5_AKjDdqaU" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCoQpDAYASITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" title="Bugatti Veyron vs Lamborghini Aventador vs Lexus LFA vs McLaren MP4-12C - Head 2 Head Episode 8" rel="spf-prefetch" data-visibility-tracking="CCoQpDAYASITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUCl0_aGo4Xwz5sB">
+  <span dir="ltr" class="title" aria-describedby="description-id-380967">
+    Bugatti Veyron vs Lamborghini Aventador vs Lexus LFA vs McLaren MP4-12C - Head 2 Head Episode 8
+  </span>
+  <span class="accessible-description" id="description-id-380967">
+     - Tagal: 7:15.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCsAegdhiYLEoaFGuJFVrqFQ">Motor Trend Channel</span></span>
+  <span class="stat view-count">96,278,744 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=m5_AKjDdqaU" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCoQpDAYASITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCoQpDAYASITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUCl0_aGo4Xwz5sB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="m5_AKjDdqaU"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/m5_AKjDdqaU/mqdefault_6s.webp?du=3000&amp;sqp=CMeoos8F&amp;rs=AOn4CLC1tRM8if0VsH5y5rlSdolo-8pbHQ" style="top: 0px" data-thumb="https://i.ytimg.com/vi/m5_AKjDdqaU/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLAPFv0f2cZeWwTWy5tccgdA_5WS-Q" alt=""><span class="video-time">7:15</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=Squv4KI751w" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCkQpDAYAiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIGcmVsbWZ1SKSWsqf9i6SMjQE" title="New Rolls Royce Wraith Commercial HD Sexy First Commercial Rolls-Royce Coupe CARJAM TV" rel="spf-prefetch" data-visibility-tracking="CCkQpDAYAiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDczu-Rivzr1Uo=">
+  <span dir="ltr" class="title" aria-describedby="description-id-299352">
+    New Rolls Royce Wraith Commercial HD Sexy First Commercial Rolls-Royce Coupe CARJAM TV
+  </span>
+  <span class="accessible-description" id="description-id-299352">
+     - Tagal: 2:06.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UCUTD4hr_kXIwrZL5MKCjyOw">CARJAM TV</span></span>
+  <span class="stat view-count">458,442 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=Squv4KI751w" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCkQpDAYAiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIGcmVsbWZ1SKSWsqf9i6SMjQE" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCkQpDAYAiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDczu-Rivzr1Uo=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="Squv4KI751w"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/Squv4KI751w/mqdefault_6s.webp?du=3000&amp;sqp=CPCMos8F&amp;rs=AOn4CLBDrCjaXPfwXUPtKb-CNlCch73xfQ" style="top: 0px" data-thumb="https://i.ytimg.com/vi/Squv4KI751w/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLCdhyjjZ-GWykZMCvlN1mb2JJhbdg" alt=""><span class="video-time">2:06</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=RdGVz104b3E" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCgQpDAYAyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" title="Bugatti Chiron: World Premiere" rel="spf-prefetch" data-visibility-tracking="CCgQpDAYAyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDx3uHp9bnl6EU=">
+  <span dir="ltr" class="title" aria-describedby="description-id-238228">
+    Bugatti Chiron: World Premiere
+  </span>
+  <span class="accessible-description" id="description-id-238228">
+     - Tagal: 2:20.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UC2qmmoQdJXLmre794U6zjXw">Bugatti</span></span>
+  <span class="stat view-count">2,661,285 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=RdGVz104b3E" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCgQpDAYAyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCgQpDAYAyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDx3uHp9bnl6EU=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="RdGVz104b3E"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/RdGVz104b3E/mqdefault_6s.webp?du=3000&amp;sqp=CMG6os8F&amp;rs=AOn4CLA6HzY4uxBiNm6NkwR22LCCtdrVXw" style="top: 0px" data-thumb="https://i.ytimg.com/vi/RdGVz104b3E/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLBJ55bNWRf98781dsFWtkx9jKRS6g" alt=""><span class="video-time">2:20</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=Iuq5cpzsr1E" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCcQpDAYBCITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIGcmVsbWZ1SKSWsqf9i6SMjQE" title="Bentley Continental GT V8 Launch Film First Commercial - Carjam TV HD Car TV Show 2013" rel="spf-prefetch" data-visibility-tracking="CCcQpDAYBCITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDR3rLnqa6u9SI=">
+  <span dir="ltr" class="title" aria-describedby="description-id-669112">
+    Bentley Continental GT V8 Launch Film First Commercial - Carjam TV HD Car TV Show 2013
+  </span>
+  <span class="accessible-description" id="description-id-669112">
+     - Tagal: 1:57.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UCUTD4hr_kXIwrZL5MKCjyOw">CARJAM TV</span></span>
+  <span class="stat view-count">112,394 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=Iuq5cpzsr1E" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCcQpDAYBCITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIGcmVsbWZ1SKSWsqf9i6SMjQE" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCcQpDAYBCITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDR3rLnqa6u9SI=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="Iuq5cpzsr1E"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/Iuq5cpzsr1E/mqdefault_6s.webp?du=3000&amp;sqp=CKK2os8F&amp;rs=AOn4CLAyFclcnulj9Xlnz-wQ9zZ3HPrLMQ" style="top: 0px" data-thumb="https://i.ytimg.com/vi/Iuq5cpzsr1E/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLCTQksaMIXPE2dHIBo9_hFIVRbKnA" alt=""><span class="video-time">1:57</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=7NZ9X9A2efA" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCUQpDAYBSITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" title="Top Gear : Bugatti Veyron vs Euro Fighter - Top Gear - BBC" rel="spf-prefetch" data-visibility-tracking="CCUQpDAYBSITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDw89mB_auf6-wB">        <span class="yt-badge standalone-collection-badge-renderer-icon">Top Gear</span>
+  <span class="standalone-collection-badge-renderer-text">S10 • E3</span>
+
+
+  <span dir="ltr" class="title" aria-describedby="description-id-521558">
+    Top Gear : Bugatti Veyron vs Euro Fighter - Top Gear - BBC
+  </span>
+  <span class="accessible-description" id="description-id-521558">
+     - Tagal: 8:42.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCjOl2AUblVmg2rA_cRgZkFg">Top Gear</span></span>
+  <span class="stat view-count">32,666,667 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=7NZ9X9A2efA" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCUQpDAYBSITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCUQpDAYBSITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDw89mB_auf6-wB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="7NZ9X9A2efA"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/7NZ9X9A2efA/mqdefault_6s.webp?du=3000&amp;sqp=CMCnos8F&amp;rs=AOn4CLAW2ue-AqbnNHGBlUy5EmciwzGxMw" style="top: 0px" data-thumb="https://i.ytimg.com/vi/7NZ9X9A2efA/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLCLzCCnT3ddqDjVBzKePoGIXJPZ9w" alt=""><span class="video-time">8:42</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=V0O7tmGLZLs" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCQQpDAYBiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" title="Bugatti Veyron Top Speed" rel="spf-prefetch" data-visibility-tracking="CCQQpDAYBiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUC7ya2M5vbuoVc=">
+  <span dir="ltr" class="title" aria-describedby="description-id-480985">
+    Bugatti Veyron Top Speed
+  </span>
+  <span class="accessible-description" id="description-id-480985">
+     - Tagal: 2:49.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCdlP7W3ozQDry5kOgSO0g_g">Optical24x</span></span>
+  <span class="stat view-count">2,299,845 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=V0O7tmGLZLs" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCQQpDAYBiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCQQpDAYBiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUC7ya2M5vbuoVc=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="V0O7tmGLZLs"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/V0O7tmGLZLs/mqdefault_6s.webp?du=3000&amp;sqp=CI6Uos8F&amp;rs=AOn4CLCNmFGbsJwvI0nAUE6jBLuMCLbW7Q" style="top: 0px" data-thumb="https://i.ytimg.com/vi/V0O7tmGLZLs/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLBY1mQN6dhZgsY1ICO1U1dUd5R3sA" alt=""><span class="video-time">2:49</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=XXdWoTVo8jc" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCMQpDAYByITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" title="Bugatti Chiron Commercial First Official New Bugatti Chiron World Premiere 2016 CARJAM TV" rel="spf-prefetch" data-visibility-tracking="CCMQpDAYByITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUC35KOrk9TVu10=">
+  <span dir="ltr" class="title" aria-describedby="description-id-546138">
+    Bugatti Chiron Commercial First Official New Bugatti Chiron World Premiere 2016 CARJAM TV
+  </span>
+  <span class="accessible-description" id="description-id-546138">
+     - Tagal: 1:28.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCUTD4hr_kXIwrZL5MKCjyOw">CARJAM TV</span></span>
+  <span class="stat view-count">140,196 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=XXdWoTVo8jc" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCMQpDAYByITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCMQpDAYByITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUC35KOrk9TVu10=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="XXdWoTVo8jc"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/XXdWoTVo8jc/mqdefault_6s.webp?du=3000&amp;sqp=CMWaos8F&amp;rs=AOn4CLDbv6mu5ydk6GVJ7MJf4R0DLqYHag" style="top: 0px" data-thumb="https://i.ytimg.com/vi/XXdWoTVo8jc/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLCCpB1Tl4aP9Z2Vu66srnHSBIJItA" alt=""><span class="video-time">1:28</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=ctrcjaaXBD4" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCIQpDAYCCITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" title="Bugatti Veyron 16.4 Grand Sport on the road in London" rel="spf-prefetch" data-visibility-tracking="CCIQpDAYCCITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUC-iNy02pG37XI=">
+  <span dir="ltr" class="title" aria-describedby="description-id-585426">
+    Bugatti Veyron 16.4 Grand Sport on the road in London
+  </span>
+  <span class="accessible-description" id="description-id-585426">
+     - Tagal: 4:21.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCwn0jaGbgMkYioOWBzMog1Q">Gumbal</span></span>
+  <span class="stat view-count">2,096,980 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=ctrcjaaXBD4" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCIQpDAYCCITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCIQpDAYCCITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUC-iNy02pG37XI=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="ctrcjaaXBD4"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/ctrcjaaXBD4/mqdefault_6s.webp?du=3000&amp;sqp=CLK7os8F&amp;rs=AOn4CLCAqzOuUlHFfkOGCk5oY8CLM_DeKg" style="top: 0px" data-thumb="https://i.ytimg.com/vi/ctrcjaaXBD4/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLAWItj7YJy4Ey7gyzIkoS-noBvryQ" alt=""><span class="video-time">4:21</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=Xd0Ok-MkqoE" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCEQpDAYCSITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIGcmVsbWZ1SKSWsqf9i6SMjQE" title="Lamborghini Aventador Best TV Ad Sexy Commercial LP 700-4 Carjam TV HD Car TV Show 2013" rel="spf-prefetch" data-visibility-tracking="CCEQpDAYCSITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUCB1ZKZvtLD7l0=">
+  <span dir="ltr" class="title" aria-describedby="description-id-670875">
+    Lamborghini Aventador Best TV Ad Sexy Commercial LP 700-4 Carjam TV HD Car TV Show 2013
+  </span>
+  <span class="accessible-description" id="description-id-670875">
+     - Tagal: 2:22.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UCUTD4hr_kXIwrZL5MKCjyOw">CARJAM TV</span></span>
+  <span class="stat view-count">482,699 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=Xd0Ok-MkqoE" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCEQpDAYCSITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIGcmVsbWZ1SKSWsqf9i6SMjQE" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCEQpDAYCSITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUCB1ZKZvtLD7l0=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="Xd0Ok-MkqoE"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/Xd0Ok-MkqoE/mqdefault_6s.webp?du=3000&amp;sqp=CKXBos8F&amp;rs=AOn4CLBYVWxwOx5aInsibiYjSRjmK9VD0A" style="top: 0px" data-thumb="https://i.ytimg.com/vi/Xd0Ok-MkqoE/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLAqy0eldMNxFkT9jE01CZqrPh1dsw" alt=""><span class="video-time">2:22</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=eJnWPhSQjPs" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCAQpDAYCiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" title="Lamborghini Huracán LP 610-4 - Official Video" rel="spf-prefetch" data-visibility-tracking="CCAQpDAYCiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUD7mcKk4cf1zHg=">
+  <span dir="ltr" class="title" aria-describedby="description-id-864864">
+    Lamborghini Huracán LP 610-4 - Official Video
+  </span>
+  <span class="accessible-description" id="description-id-864864">
+     - Tagal: 3:17.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UC9DXZC8BCDOW6pYAQKgozqw">Lamborghini</span></span>
+  <span class="stat view-count">6,026,565 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=eJnWPhSQjPs" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CCAQpDAYCiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CCAQpDAYCiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUD7mcKk4cf1zHg=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="eJnWPhSQjPs"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/eJnWPhSQjPs/mqdefault_6s.webp?du=3000&amp;sqp=COG5os8F&amp;rs=AOn4CLDnpL1ttnKtv0bvHXnsdidiHHg45Q" style="top: 0px" data-thumb="https://i.ytimg.com/vi/eJnWPhSQjPs/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLBvW0XlczG0sXdPkrY5ZA0VEe5Qsg" alt=""><span class="video-time">3:17</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=Vsj8KpK4vRU" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CB8QpDAYCyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" title="10 MOST Beautiful Hottest CARS Of Dubai&#39;s Rich Students !" rel="spf-prefetch" data-visibility-tracking="CB8QpDAYCyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUCV-uKVqYW_5FY=">
+  <span dir="ltr" class="title" aria-describedby="description-id-646128">
+    10 MOST Beautiful Hottest CARS Of Dubai&#39;s Rich Students !
+  </span>
+  <span class="accessible-description" id="description-id-646128">
+     - Tagal: 10:10.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCmeBJBLXcXamuPWl-0t5S4w">TOP 10 INFORMATION - TTI</span></span>
+  <span class="stat view-count">1,092,453 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=Vsj8KpK4vRU" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CB8QpDAYCyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CB8QpDAYCyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUCV-uKVqYW_5FY=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="Vsj8KpK4vRU"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/Vsj8KpK4vRU/mqdefault_6s.webp?du=3000&amp;sqp=CP7Bos8F&amp;rs=AOn4CLBV4HYz09hKXNa21cFbRouonXA-1w" style="top: 0px" data-thumb="https://i.ytimg.com/vi/Vsj8KpK4vRU/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLA_QWwBnzJZaYcUfxhT4Iq4O4Vm6g" alt=""><span class="video-time">10:10</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=loQYChWQCC8" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CB4QpDAYDCITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIGcmVsbWZ1SKSWsqf9i6SMjQE" title="Lamborghini ASTERION in 4K HD World Premiere Driving Engine Sound New Lamborghini Sexy TV AD CARJAM" rel="spf-prefetch" data-visibility-tracking="CB4QpDAYDCITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUCvkMCsoYGGwpYB">
+  <span dir="ltr" class="title" aria-describedby="description-id-896214">
+    Lamborghini ASTERION in 4K HD World Premiere Driving Engine Sound New Lamborghini Sexy TV AD CARJAM
+  </span>
+  <span class="accessible-description" id="description-id-896214">
+     - Tagal: 3:45.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UCUTD4hr_kXIwrZL5MKCjyOw">CARJAM TV</span></span>
+  <span class="stat view-count">86,475 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=loQYChWQCC8" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CB4QpDAYDCITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIGcmVsbWZ1SKSWsqf9i6SMjQE" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CB4QpDAYDCITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUCvkMCsoYGGwpYB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="loQYChWQCC8"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/loQYChWQCC8/mqdefault_6s.webp?du=3000&amp;sqp=CPO2os8F&amp;rs=AOn4CLDyN_YN7Kv2rNP4azCLGQrwpps4ow" style="top: 0px" data-thumb="https://i.ytimg.com/vi/loQYChWQCC8/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLDSd5JRmQEOESqZ8Ithr9fnPO3wGg" alt=""><span class="video-time">3:45</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=2EVvRx-hGms" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CB0QpDAYDSITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" title="Top 10 Football Players Super Cars ★ 2017" rel="spf-prefetch" data-visibility-tracking="CB0QpDAYDSITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDrtIT98ejbotgB">
+  <span dir="ltr" class="title" aria-describedby="description-id-585810">
+    Top 10 Football Players Super Cars ★ 2017
+  </span>
+  <span class="accessible-description" id="description-id-585810">
+     - Tagal: 10:01.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCbAckDXD-8pNEi5tCICqmBw">Gym4men</span></span>
+  <span class="stat view-count">1,439,789 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=2EVvRx-hGms" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CB0QpDAYDSITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CB0QpDAYDSITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDrtIT98ejbotgB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="2EVvRx-hGms"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/2EVvRx-hGms/mqdefault_6s.webp?du=3000&amp;sqp=CL25os8F&amp;rs=AOn4CLBpt30rD8ObzjnIuoexVD3_FLnttg" style="top: 0px" data-thumb="https://i.ytimg.com/vi/2EVvRx-hGms/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLCbL_atJs1mk4qhyiiVOI953LrY_w" alt=""><span class="video-time">10:01</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=KidzSnnCJKU" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CBwQpDAYDiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" title="POLICE vs SUPERCARS in Monaco!" rel="spf-prefetch" data-visibility-tracking="CBwQpDAYDiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUClyYjOp-nckyo=">
+  <span dir="ltr" class="title" aria-describedby="description-id-36704">
+    POLICE vs SUPERCARS in Monaco!
+  </span>
+  <span class="accessible-description" id="description-id-36704">
+     - Tagal: 12:53.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCwn0jaGbgMkYioOWBzMog1Q">Gumbal</span></span>
+  <span class="stat view-count">4,304,908 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=KidzSnnCJKU" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CBwQpDAYDiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBwQpDAYDiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUClyYjOp-nckyo=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="KidzSnnCJKU"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/KidzSnnCJKU/mqdefault_6s.webp?du=3000&amp;sqp=CJeKos8F&amp;rs=AOn4CLCqkXE5XWv7nbarjkcsIMCfythx_Q" style="top: 0px" data-thumb="https://i.ytimg.com/vi/KidzSnnCJKU/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLDroNjhnj2CYsAKqVZ9v22tGhrnFg" alt=""><span class="video-time">12:53</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=DOarIqLGiDQ" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CBsQpDAYDyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIGcmVsbWZ1SKSWsqf9i6SMjQE" title="New Rolls Royce Ghost II 2015 Sexy First Commercial CARJAM TV HD 2014 RR Ghost Series 2" rel="spf-prefetch" data-visibility-tracking="CBsQpDAYDyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUC0kJqWquSq8ww=">
+  <span dir="ltr" class="title" aria-describedby="description-id-663127">
+    New Rolls Royce Ghost II 2015 Sexy First Commercial CARJAM TV HD 2014 RR Ghost Series 2
+  </span>
+  <span class="accessible-description" id="description-id-663127">
+     - Tagal: 2:34.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UCUTD4hr_kXIwrZL5MKCjyOw">CARJAM TV</span></span>
+  <span class="stat view-count">369,369 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=DOarIqLGiDQ" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CBsQpDAYDyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIGcmVsbWZ1SKSWsqf9i6SMjQE" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBsQpDAYDyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUC0kJqWquSq8ww=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="DOarIqLGiDQ"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/DOarIqLGiDQ/mqdefault_6s.webp?du=3000&amp;sqp=CPi0os8F&amp;rs=AOn4CLCfk-bL48XzGRn3ei5wkz3sy1ga9g" style="top: 0px" data-thumb="https://i.ytimg.com/vi/DOarIqLGiDQ/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLBthCwqdnmvpaTXnX5Nfe9_qE06Ew" alt=""><span class="video-time">2:34</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=5nT1fNmILiU" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CBoQpDAYECITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIGcmVsbWZ1SKSWsqf9i6SMjQE" title="New Lamborghini Veneno HD First Commercial 2014 Carjam TV HD Car TV Show" rel="spf-prefetch" data-visibility-tracking="CBoQpDAYECITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUCl3KDMza-9uuYB">
+  <span dir="ltr" class="title" aria-describedby="description-id-830920">
+    New Lamborghini Veneno HD First Commercial 2014 Carjam TV HD Car TV Show
+  </span>
+  <span class="accessible-description" id="description-id-830920">
+     - Tagal: 4:00.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="relmfu" data-ytid="UCUTD4hr_kXIwrZL5MKCjyOw">CARJAM TV</span></span>
+  <span class="stat view-count">492,488 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=5nT1fNmILiU" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CBoQpDAYECITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIGcmVsbWZ1SKSWsqf9i6SMjQE" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBoQpDAYECITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUCl3KDMza-9uuYB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="5nT1fNmILiU"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/5nT1fNmILiU/mqdefault_6s.webp?du=3000&amp;sqp=CMC7os8F&amp;rs=AOn4CLDzIORJRRg3A2rDvedq5jvSbftozA" style="top: 0px" data-thumb="https://i.ytimg.com/vi/5nT1fNmILiU/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLBqMZZ7m3mCm5hfpCGg-kTkAD6hsw" alt=""><span class="video-time">4:00</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=eekrb4wJl-k" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CBkQpDAYESITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" title="TOP 10: CAR COMMERCIALS" rel="spf-prefetch" data-visibility-tracking="CBkQpDAYESITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDpr6bg-O3K9Hk=">
+  <span dir="ltr" class="title" aria-describedby="description-id-308843">
+    TOP 10: CAR COMMERCIALS
+  </span>
+  <span class="accessible-description" id="description-id-308843">
+     - Tagal: 12:30.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCjCcWPV4umoHUrYmgOSvPvw">HelloImAPizza</span></span>
+  <span class="stat view-count">1,479,665 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=eekrb4wJl-k" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CBkQpDAYESITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBkQpDAYESITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDpr6bg-O3K9Hk=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="eekrb4wJl-k"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/eekrb4wJl-k/mqdefault_6s.webp?du=3000&amp;sqp=CIPBos8F&amp;rs=AOn4CLCcaiInZcskzPB-z1CwvD4oHhWQ7w" style="top: 0px" data-thumb="https://i.ytimg.com/vi/eekrb4wJl-k/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLC74rX1WHgqgwyVKRJERBK2IgJEkA" alt=""><span class="video-time">12:30</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=RXqSedWSu2k" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CBcQpDAYEiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" title="Bugatti Veyron vs McLaren F1 - Top Gear - BBC" rel="spf-prefetch" data-visibility-tracking="CBcQpDAYEiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDp9sqsnc-kvUU=">        <span class="yt-badge standalone-collection-badge-renderer-icon">Top Gear</span>
+  <span class="standalone-collection-badge-renderer-text">S13 • E2</span>
+
+
+  <span dir="ltr" class="title" aria-describedby="description-id-28866">
+    Bugatti Veyron vs McLaren F1 - Top Gear - BBC
+  </span>
+  <span class="accessible-description" id="description-id-28866">
+     - Tagal: 4:47.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UCjOl2AUblVmg2rA_cRgZkFg">Top Gear</span></span>
+  <span class="stat view-count">28,409,209 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=RXqSedWSu2k" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CBcQpDAYEiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBcQpDAYEiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUDp9sqsnc-kvUU=" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="RXqSedWSu2k"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/RXqSedWSu2k/mqdefault_6s.webp?du=3000&amp;sqp=CJ2vos8F&amp;rs=AOn4CLDSxxIR7_UnauICJ7Gvlf2pauqaSw" style="top: 0px" data-thumb="https://i.ytimg.com/vi/RXqSedWSu2k/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLCpPmmYk_JnB6nr0aap6IyuNXzGjg" alt=""><span class="video-time">4:47</span></span></a>
+
+  </div>
+
+</li><li class="video-list-item related-list-item  show-video-time related-list-item-compact-video">
+
+    <div class="content-wrapper">
+    <a href="/watch?v=u3xjsVBcD_4" class=" content-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CBYQpDAYEyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" title="Guess?  How to cars by the way from showroom" rel="spf-prefetch" data-visibility-tracking="CBYQpDAYEyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUD-n_CClfaYvrsB">
+  <span dir="ltr" class="title" aria-describedby="description-id-882875">
+    Guess?  How to cars by the way from showroom
+  </span>
+  <span class="accessible-description" id="description-id-882875">
+     - Tagal: 2:12.
+  </span>
+  <span class="stat attribution"><span class="g-hovercard" data-name="related" data-ytid="UC60QwjPeOfr3PTzG_gZEVxw">KNIGHT RIDERS</span></span>
+  <span class="stat view-count">245,523 (na) panonood</span>
+</a>
+  </div>
+  <div class="thumb-wrapper">
+
+    <a href="/watch?v=u3xjsVBcD_4" class=" vve-check thumb-link spf-link  yt-uix-sessionlink      spf-link " data-sessionlink="itct=CBYQpDAYEyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIHcmVsYXRlZEiklrKn_YukjI0B" tabindex="-1" rel="spf-prefetch" data-visibility-tracking="CBYQpDAYEyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HUD-n_CClfaYvrsB" aria-hidden="true"><span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related yt-uix-mouseover-img-wrap" tabindex="0" data-vid="u3xjsVBcD_4"><img src="images/pixel-vfl3z5WfW.gif" height="94" aria-hidden="true" width="168" data-mouseover-src="https://i.ytimg.com/an_webp/u3xjsVBcD_4/mqdefault_6s.webp?du=3000&amp;sqp=CNi9os8F&amp;rs=AOn4CLBPBp18LKcfqmE6UFPmKQAe9KHv7A" style="top: 0px" data-thumb="https://i.ytimg.com/vi/u3xjsVBcD_4/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLAV19DLIWHN5tddiMNVeMZkvwuw6Q" alt=""><span class="video-time">2:12</span></span></a>
+
+  </div>
+
+</li>
+                <div id="watch-more-related" class="hid">
+    <li id="watch-more-related-loading">
+Naglo-load nang higit pang mga suhestiyon...
+    </li>
+  </div>
+  <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-expander" type="button" onclick=";return false;" id="watch-more-related-button" data-button-action="yt.www.watch.related.loadMore" data-continuation="CBQSFhILalJpUVg5VHNpeVHAAQDIAQDgAQEYACrPAQjR1Y-_-NiHnqEBCKXT9oajhfDPmwEI3M7vkYr869VKCPHe4en1ueXoRQjR3rLnqa6u9SII8PPZgf2rn-vsAQi7ya2M5vbuoVcIt-Sjq5PU1btdCL6I3LTakbftcgiB1ZKZvtLD7l0I-5nCpOHH9cx4CJX64pWphb_kVgivkMCsoYGGwpYBCOu0hP3x6Nui2AEIpcmIzqfp3JMqCLSQmpaq5KrzDAil3KDMza-9uuYBCOmvpuD47cr0eQjp9sqsnc-kvUUI_p_wgpX2mL67AQ%3D%3D"><span class="yt-uix-button-content">Magpakita nang higit pa</span></button>
+
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+</div></div></div></div>  <div id="footer-container" class="yt-base-gutter force-layer"><div id="footer"><div id="footer-main"><div id="footer-logo"><a href="/" id="footer-logo-link" title="YouTube home" data-sessionlink="ei=R6PoWeLyB5K_qQG3x6GIDw&amp;ved=CAIQpmEiEwiisrCr4PzWAhWSXyoKHbdjCPEo-B0" class="yt-uix-sessionlink"><span class="footer-logo-icon yt-sprite"></span></a></div>  <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional">
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon" type="button" onclick=";return false;" id="yt-picker-language-button" data-button-menu-id="arrow-display" data-picker-key="language" data-button-action="yt.www.picker.load" data-picker-position="footer" data-button-toggle="true"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-language yt-sprite"></span></span><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Wika:
+  </span>
+  Filipino
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-country-button" data-button-menu-id="arrow-display" data-picker-key="country" data-button-action="yt.www.picker.load" data-picker-position="footer" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Lokasyon ng content:
+  </span>
+  Pilipinas
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-safetymode-button" data-button-menu-id="arrow-display" data-picker-key="safetymode" data-button-action="yt.www.picker.load" data-picker-position="footer" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Restricted Mode:
+  </span>
+Naka-off
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+  </ul>
+<a href="/feed/history" class="yt-uix-button  footer-history yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon" data-sessionlink="ei=R6PoWeLyB5K_qQG3x6GIDw"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-history yt-sprite"></span></span><span class="yt-uix-button-content">Kasaysayan</span></a>    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon yt-uix-button-reverse yt-google-help-link inq-no-click " type="button" onclick=";return false;" id="google-help" data-ghelp-anchor="google-help" data-ghelp-tracking-param="" data-load-chat-support="true" data-feedback-product-id="59"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-questionmark yt-sprite"></span></span><span class="yt-uix-button-content">Tulong
+</span></button>
+      <div id="yt-picker-language-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+Naglo-load...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-country-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+Naglo-load...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-safetymode-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+Naglo-load...
+    </span>
+  </p>
+
+  </div>
+
+</div><div id="footer-links"><ul id="footer-links-primary">  <li><a href="//www.youtube.com/yt/about/fil/">Tungkol Sa</a></li>
+  <li><a href="//www.youtube.com/yt/press/fil/">Pindutin</a></li>
+  <li><a href="//www.youtube.com/yt/copyright/fil/">Copyright</a></li>
+  <li><a href="//www.youtube.com/yt/creators/">Mga Tagalikha</a></li>
+  <li><a href="//www.youtube.com/yt/advertise/">Mag-advertise</a></li>
+  <li><a href="//www.youtube.com/yt/dev/fil/">Mga Developer</a></li>
+  <li><a href="https://plus.google.com/+youtube" dir="ltr">+YouTube</a></li>
+</ul><ul id="footer-links-secondary">  <li><a href="/t/terms">Mga Tuntunin</a></li>
+  <li><a href="https://www.google.com/intl/fil/policies/privacy/">Privacy</a></li>
+  <li><a href="//www.youtube.com/yt/policyandsafety/fil/">
+Patakaran at Kaligtasan
+  </a></li>
+  <li><a href="//support.google.com/youtube/?hl=fil" onclick="return yt.www.feedback.start(59);" class="reportbug">Magpadala ng feedback</a></li>
+  <li>
+    <a href="/testtube">Subukan ang mga bagong feature</a>
+  </li>
+  <li></li>
+</ul></div></div></div>
+
+
+      <div class="yt-dialog hid " id="feed-privacy-lb">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg" role="dialog">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+Naglo-load...
+    </span>
+  </p>
+
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div id="feed-privacy-dialog">
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div class="yt-dialog-working-overlay"></div>
+  <div class="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+        <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+        Gumagawa...
+    </span>
+  </p>
+
+      </div>
+  </div>
+
+          </div>
+        </div>
+        <div class="yt-dialog-focus-trap" tabindex="0"></div>
+      </div>
+    </div>
+  </div>
+
+
+<div id="hidden-component-template-wrapper" class="hid">    <div id="shared-addto-watch-later-login" class="hid">
+      <a class="sign-in-link" href="https://accounts.google.com/ServiceLogin?service=youtube&hl=fil&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Ffeature%3Dplaylist%26next%3D%252Fwatch%253Fv%253DjRiQX9TsiyQ%26hl%3Dfil%26action_handle_signin%3Dtrue%26app%3Ddesktop&uilel=3">Mag-sign in</a> upang idagdag ito sa Panoorin sa Ibang Pagkakataon
+
+    </div>
+<div id="yt-uix-videoactionmenu-menu" class="yt-ui-menu-content">  <div class="hide-on-create-pl-panel">
+    <h3>
+Idagdag sa
+    </h3>
+  </div>
+  <div class="add-to-widget">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Icon ng pag-load"></span>
+
+    <span class="yt-spinner-message">
+        Nilo-load ang mga playlist...
+    </span>
+  </p>
+
+  </div>
+</div></div>    <script>var ytspf = ytspf || {};ytspf.enabled = true;ytspf.config = {'reload-identifier': 'spfreload'};ytspf.config['request-headers'] = {'X-YouTube-Identity-Token': null};ytspf.config['experimental-request-headers'] = ytspf.config['request-headers'];ytspf.config['cache-max'] = 50;ytspf.config['navigate-limit'] = 50;ytspf.config['navigate-lifetime'] = 64800000;</script>
+  <script src="js/spf.js" type="text/javascript" name="spf/spf"></script>
+  <script src="js/base.js" name="www/base"></script>
+<script>spf.script.path({'www/': '/yts/jsbin/www-en_US-vfliJm6pm/'});var ytdepmap = {"www/base": null, "www/common": "www/base", "www/angular_base": "www/common", "www/channels_accountupload": "www/common", "www/channels": "www/common", "www/dashboard": "www/common", "www/downloadreports": "www/common", "www/experiments": "www/common", "www/feed": "www/common", "www/instant": "www/common", "www/legomap": "www/common", "www/promo_join_network": "www/common", "www/results_harlemshake": "www/common", "www/results": "www/common", "www/results_starwars": "www/common", "www/subscriptionmanager": "www/common", "www/unlimited": "www/common", "www/watch": "www/common", "www/ypc_bootstrap": "www/common", "www/ypc_core": "www/common", "www/channels_edit": "www/channels", "www/live_dashboard": "www/angular_base", "www/videomanager": "www/angular_base", "www/watch_autoplayrenderer": "www/watch", "www/watch_edit": "www/watch", "www/watch_editor": "www/watch", "www/watch_live": "www/watch", "www/watch_promos": "www/watch", "www/watch_speedyg": "www/watch", "www/watch_transcript": "www/watch", "www/watch_videoshelf": "www/watch", "www/ct_advancedsearch": "www/videomanager", "www/my_videos": "www/videomanager"};spf.script.declare(ytdepmap);</script><script>if (window.ytcsi) {window.ytcsi.tick("je", null, '');}</script>      <script>
+    yt.setConfig({
+      'VIDEO_ID': "jRiQX9TsiyQ",
+      'THUMB_LOADER_PAUSE_MS': 0,
+      'THUMB_LOADER_GROUP_PX': 400,
+      'THUMB_LOADER_IGNORE_FOLD': false,
+      'WAIT_TO_DELAYLOAD_FRAME_CSS': true,
+      'IS_UNAVAILABLE_PAGE': false,
+      'DROPDOWN_ARROW_URL': "\/yts\/img\/pixel-vfl3z5WfW.gif",
+      'AUTONAV_EXTRA_CHECK': false,
+
+      'JS_PAGE_MODULES': [
+        'www/watch',
+        'www/ypc_bootstrap',
+          'www/watch_autoplayrenderer',
+        ''       ],
+
+
+      'REPORTVIDEO_JS': "\/yts\/jsbin\/www-reportvideo-vfl3YilRu\/www-reportvideo.js",
+      'REPORTVIDEO_CSS': "\/yts\/cssbin\/www-watch-reportvideo-webp-vflr7oWra.css",
+
+
+      'TIMING_AFT_KEYS': ['pbp', 'pbs'],
+      'YPC_CAN_RATE_VIDEO': true,
+
+
+        'RELATED_PLAYER_ARGS': {"rvs":"id=oTwex4fj6tE\u0026length_seconds=167\u0026session_data=itct%3DCBMQvU4YACITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIJZW5kc2NyZWVuSKSWsqf9i6SMjQE%253D\u0026author=CARJAM+TV\u0026endscreen_autoplay_session_data=playnext%3D1%26autonav%3D1%26itct%3DCBQQ4ZIBIhMIorKwq-D81gIVkl8qCh23YwjxKPgdMgxyZWxhdGVkLWF1dG9IpJayp_2LpIyNAQ%253D%253D\u0026iurlmq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FoTwex4fj6tE%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLAsiwnbk1lvPPBih_XLjpq2YGroEQ\u0026title=Mercedes+SLS+AMG+2013+Classic+TV+Commercial+Carjam+TV+HD+Car+TV+Show\u0026short_view_count_text=203K+%28na%29+panonood\u0026iurlhq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FoTwex4fj6tE%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLAsiwnbk1lvPPBih_XLjpq2YGroEQ,id=m5_AKjDdqaU\u0026length_seconds=435\u0026session_data=itct%3DCBIQvU4YASITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIJZW5kc2NyZWVuSKSWsqf9i6SMjQE%253D\u0026author=Motor+Trend+Channel\u0026iurlmq=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fm5_AKjDdqaU%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLCQJFrauK19ISGqrNbNLuLl2ONpHQ\u0026title=Bugatti+Veyron+vs+Lamborghini+Aventador+vs+Lexus+LFA+vs+McLaren+MP4-12C+-+Head+2+Head+Episode+8\u0026short_view_count_text=96M+%28na%29+panonood\u0026iurlhq=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fm5_AKjDdqaU%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLCQJFrauK19ISGqrNbNLuLl2ONpHQ,id=Squv4KI751w\u0026length_seconds=126\u0026session_data=itct%3DCBEQvU4YAiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIJZW5kc2NyZWVuSKSWsqf9i6SMjQE%253D\u0026author=CARJAM+TV\u0026iurlmq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FSquv4KI751w%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLD6zIqr59CRJvSG3paj4x9LKENNvA\u0026title=New+Rolls+Royce+Wraith+Commercial+HD+Sexy+First+Commercial+Rolls-Royce+Coupe+CARJAM+TV\u0026short_view_count_text=458K+%28na%29+panonood\u0026iurlhq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FSquv4KI751w%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLD6zIqr59CRJvSG3paj4x9LKENNvA,id=RdGVz104b3E\u0026length_seconds=140\u0026session_data=itct%3DCBAQvU4YAyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIJZW5kc2NyZWVuSKSWsqf9i6SMjQE%253D\u0026author=Bugatti\u0026iurlmq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FRdGVz104b3E%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLCkzA4sr92--1fsz6Hr796EZdB5-g\u0026title=Bugatti+Chiron%3A+World+Premiere\u0026short_view_count_text=2.6M+%28na%29+panonood\u0026iurlhq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FRdGVz104b3E%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLCkzA4sr92--1fsz6Hr796EZdB5-g,id=Iuq5cpzsr1E\u0026length_seconds=117\u0026session_data=itct%3DCA8QvU4YBCITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIJZW5kc2NyZWVuSKSWsqf9i6SMjQE%253D\u0026author=CARJAM+TV\u0026iurlmq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FIuq5cpzsr1E%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLDFZhsZpL1AdTOH4sNvu2h2qaxnqA\u0026title=Bentley+Continental+GT+V8+Launch+Film+First+Commercial+-+Carjam+TV+HD+Car+TV+Show+2013\u0026short_view_count_text=112K+%28na%29+panonood\u0026iurlhq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FIuq5cpzsr1E%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLDFZhsZpL1AdTOH4sNvu2h2qaxnqA,id=7NZ9X9A2efA\u0026length_seconds=522\u0026session_data=itct%3DCA4QvU4YBSITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIJZW5kc2NyZWVuSKSWsqf9i6SMjQE%253D\u0026author=Top+Gear\u0026iurlmq=https%3A%2F%2Fi.ytimg.com%2Fvi%2F7NZ9X9A2efA%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLBQwtb3kLOqpfl03ON_kXNEYPmWCg\u0026title=Top+Gear+%3A+Bugatti+Veyron+vs+Euro+Fighter+-+Top+Gear+-+BBC\u0026short_view_count_text=32M+%28na%29+panonood\u0026iurlhq=https%3A%2F%2Fi.ytimg.com%2Fvi%2F7NZ9X9A2efA%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLBQwtb3kLOqpfl03ON_kXNEYPmWCg,id=V0O7tmGLZLs\u0026length_seconds=169\u0026session_data=itct%3DCA0QvU4YBiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIJZW5kc2NyZWVuSKSWsqf9i6SMjQE%253D\u0026author=Optical24x\u0026iurlmq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FV0O7tmGLZLs%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLCutNhO6Kw1xSa5JvFL5HTwGMgjFQ\u0026title=Bugatti+Veyron+Top+Speed\u0026short_view_count_text=2.2M+%28na%29+panonood\u0026iurlhq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FV0O7tmGLZLs%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLCutNhO6Kw1xSa5JvFL5HTwGMgjFQ,id=XXdWoTVo8jc\u0026length_seconds=88\u0026session_data=itct%3DCAwQvU4YByITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIJZW5kc2NyZWVuSKSWsqf9i6SMjQE%253D\u0026author=CARJAM+TV\u0026iurlmq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FXXdWoTVo8jc%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLCqfs0U6okwHb-S1YWCcnsNVfSj7Q\u0026title=Bugatti+Chiron+Commercial+First+Official+New+Bugatti+Chiron+World+Premiere+2016+CARJAM+TV\u0026short_view_count_text=140K+%28na%29+panonood\u0026iurlhq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FXXdWoTVo8jc%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLCqfs0U6okwHb-S1YWCcnsNVfSj7Q,id=ctrcjaaXBD4\u0026length_seconds=261\u0026session_data=itct%3DCAsQvU4YCCITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIJZW5kc2NyZWVuSKSWsqf9i6SMjQE%253D\u0026author=Gumbal\u0026iurlmq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FctrcjaaXBD4%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLBRZIDInSdce90kjCM-Fs1FvZ_ucQ\u0026title=Bugatti+Veyron+16.4+Grand+Sport+on+the+road+in+London\u0026short_view_count_text=2M+%28na%29+panonood\u0026iurlhq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FctrcjaaXBD4%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLBRZIDInSdce90kjCM-Fs1FvZ_ucQ,id=Xd0Ok-MkqoE\u0026length_seconds=142\u0026session_data=itct%3DCAoQvU4YCSITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIJZW5kc2NyZWVuSKSWsqf9i6SMjQE%253D\u0026author=CARJAM+TV\u0026iurlmq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FXd0Ok-MkqoE%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLDVWoI_22H3x5RjrI0WyZMMt4hccw\u0026title=Lamborghini+Aventador+Best+TV+Ad+Sexy+Commercial+LP+700-4+Carjam+TV+HD+Car+TV+Show+2013\u0026short_view_count_text=482K+%28na%29+panonood\u0026iurlhq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FXd0Ok-MkqoE%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLDVWoI_22H3x5RjrI0WyZMMt4hccw,id=eJnWPhSQjPs\u0026length_seconds=197\u0026session_data=itct%3DCAkQvU4YCiITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIJZW5kc2NyZWVuSKSWsqf9i6SMjQE%253D\u0026author=Lamborghini\u0026iurlmq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FeJnWPhSQjPs%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLD01MXSITqUlNwyFxGhHIXXn_FzDQ\u0026title=Lamborghini+Hurac%C3%A1n+LP+610-4+-+Official+Video\u0026short_view_count_text=6M+%28na%29+panonood\u0026iurlhq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FeJnWPhSQjPs%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLD01MXSITqUlNwyFxGhHIXXn_FzDQ,id=Vsj8KpK4vRU\u0026length_seconds=610\u0026session_data=itct%3DCAgQvU4YCyITCKKysKvg_NYCFZJfKgodt2MI8Sj4HTIJZW5kc2NyZWVuSKSWsqf9i6SMjQE%253D\u0026author=TOP+10+INFORMATION+-+TTI\u0026iurlmq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FVsj8KpK4vRU%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLAvSxH79mx-4UvzMGl2D2bholDkWg\u0026title=10+MOST+Beautiful+Hottest+CARS+Of+Dubai%27s+Rich+Students+%21\u0026short_view_count_text=1M+%28na%29+panonood\u0026iurlhq=https%3A%2F%2Fi.ytimg.com%2Fvi%2FVsj8KpK4vRU%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLAvSxH79mx-4UvzMGl2D2bholDkWg"},
+
+
+          'BG_P': "jKgY0UZvIS2XVmON2dfWcI3cYyR4nPQwKlUPF9JnIksFTZAhTCijW3wRgmGrATdgERqZwKG+cGumeskCdnLfd4euQgGYM\/sv40xiCUAtSFoq5pPYVot6v+AQo8tdidqNDanfuSvKCjKyhImI37qDatJHVEHWf1PP4APw8+mutBM71IHmIguHQ31irROckApnkDCM2j4GdKsKr2Tc652S7YcbzwqSfOq6JGs09BOwOdYHq8AI6ngyAcEwiTchmI5NmlSqQQqYZMkSYltFtVDlVrZM8BOYt3fxfjP5RFhaiqa\/y1lXYdEqn7EF8U9f6LYi1IRLpgomjQ55dM2LlKikHXINYjtY32Xs6BmiL6BuitKk6ZGLhny50HdCgXpVVm8XylX7gaGe7YS3AzQBgsX5cRvNHpfoOxhhsBMAbcUBvBn3sAwYg0NWsjsYzLZhgh9k+VKUKJnyTGVsVjcFSBjZCnrosjNBJ3Ajz6KCEeMJXgg+852NuWLyG\/bQU8zggDC29Oryl4dY4VhNvnHEWMPaUAJwWoV\/P69EW4L2Ebb85BJkif0CIYKYzJtSFxv6y7wr5GmrFc+9NMRUpC3wu9J4ExTXcJEQwdBBKtLvG0DaCOEXUzgkbaKSc8hCMv7cQG9augecPZHnGCvCYegIWmsMrv6hu4dQu3+02v\/e0cbOzR7hAsIi7kX3X5KQbhuwTgFXGEU\/BIVhstoeHJKRuIh0zRqC28wzvnXDRGSmTZJBvqbU99cnXSYGo4lA3mByt4atFE60u4oQXXxrZW80kGZnFyEopeYqPgdvXIwIFgWeMt+MoOGC86kl194ZiYR3mgJU27kJQhmOgSBJE\/kKuyIJr9FzZtUC1Ju5loTWFbcpKYCJ3T6pk6O+Mgo97id11c3RAHqTcpN919TqofGnG7XIs7BzfY1NWkAmcCwGcBtiTxHUohcpOZeT57BbYVzKmRI\/PDdVywCr37sWNFIxgS1gQbboPub4e7Iq\/GKYlPYZeEURTuPOP15eqb+F7kE22DAOTelAaVclcj75c6Wqr\/+2jN+W1UqyicZ4kyNqo90X4mBvC+siwSwRw2dNluLGcTPIC1t2BYN9Av\/JUhTOn5wrMDKXmGoUQoBPHAtFjoT7tdLJrfDTXT0u2UlR7PEI2dfOHpglzfeveIjgFFeR8p880YRSadg8m+hu7+eW8Ze7snlvWgLkjAbg6W3Lg29oAuaVxbAV7JYZoS1FOyiNi3sbNf0o2DCKcLuVX5uFSDJXU6cHUKTcwSPELniljGKKNxfSTX57Y3pFFW3a44mFIk2xF7qN7JfYanNrNjhzltyleBgEHgZudHOU8sERUHX9d\/nvxEeeUMhG14Hx9VOVgq1b1xOud9OUvIlN+XN9p7K8ZnOysJXrj8pFNBKgxxZ1F3+LMEYebpYJHCen4teEqWV14QeAI94DDMm5jT6\/oSCa8B3LROJe5ucxUOGlPFNCZavqJPCp0Fd9PHfptyhOws9ZHxfz5y1b9PO2\/gX7Eu\/XxgZJVCaJQgZfwqr79ZdKmC\/q95VslgzyUxpmCP5RmESUjher3WKH8VnjIEdSCwTKQi8OIA7KNOfNrP0YCek4rf8kF4k2a+2OYXD7RAfcX5kicffnQWqEzxW+DDZr4j6KEm0IAIFVd\/gisocNBG9dOTcTjjGzY5lyLUcJmP99TEv5C+wYhkC8IU91CoPBSoUs2AdVMcksJQb6vUJ\/zyWhHxvhgiW\/EfqLiLMqBhs6AdWPTi8cCrH94Bddl26LFT52nk31VbbNxifxPpM+EyKWnLZejzpfnsknfvOUcL1pCYd5utm+YorU3L4JXdiGUVeKjcbEiy4Ck0xntrMGGAdDszj3gvtksToNNllLcZbc+1Hk8\/d6ZWXaBmSstjI\/tOGrlwPH4q0WyelOYBAZA3GKiJ8JQ8G6ROdpfEbH0g9Fww2kfCiuWa\/x+lcghBSHQQVUrjaE4F2TcoftLnz\/lgLR42XtLU5CDIRMhrPF43UmnQSdkCqUdJWmAaJA6fjF8ZWG56AenkZXowdG12l3CgVzhuE6Ho7+Mkga4U7BWVnRGCdG7GvEjTvXmPIR121PZtmtrPKInN6FYzzydDYfBzJ+vgN20OwjERUHNwBJEh31FnCh9JtFgfvHZLmt+7o0ebyD7iWQbKFLJzyKQZvzlzjfLDZ0xH7JaUhVHwjEkGdrJUpseHmEUEGtt23MTEvmdkGBfB6AANPl4k65Mi8ZLQi0h4sadswO4Jkp1nz+B7FdwsFJHcFI9UZpQlCZjB1hNiXnAcId0XUqwYXwNg3hRfKUKk6mW9C8uH3P6IgZcRpU2h8Jt13qC7xnjNVb6JZiZpYHN4VbotDbTfghPpib4WlovdmYF1f1ffeX4XhBiOr2q0BtDjsesgpxbYIRnEjQ3tSOx+Pk3jKvJw7xeB9V03jo6zQXutenZ04zqyMyNjbJKbYbIcm1p84c5n59ZCzlmVE8Yh+02of7CP+HhyCfdksWNu9+AgoLW1ULaFo0zfqtk7WdoQ2eUpFNylWa01s9UoXOw1vcrg636IK2Jks5nfgdBSdLrgnSF1c0ldsIryMdEFQtmXM4OB2oUYfIwzYcl8EXYW6b1VHZXHO8MbMur5+yQ+FEdlXE6TRBi4+IlmzcbBFbGtBNUok3u4BzHux30U9Zz\/g5nizWk8Wsb0P7h6IVE\/3dgcC7ce+ZeQm1K1GRKzfmYgeAXSh7lOO6yU7Vqiaq+B3+nSTfFQns6RuKEYU\/QH6tlJdZaZRy3s0fI7E7inxASRLTtVmLtuJOLYNdGLoTs+\/IWxHpF6bkw8saQTOZga\/xYteK0Wyn77YWuToW\/LTsB1+CBJ5kZY4io0\/tXKPFJtIApxFF2Y8DE4yQIwJFwTNVT0Y2Ssqd0aG9TqEXwikHh4g\/+bXlJ6hCtH2IeTs9JX\/F4Bt4HNH5PcJ6pZpATlA5\/N1+Z7tkkuVbG2T8EksD5uwBpmygSB5jha8DyuPn3Vzu3dFzp1tC5fToi5lBKmXPlzVXo36Xc7Ql+6Jq8l+xZ9KuwhoPnfwVJwXkefpmxgNKv6wBo8cgZ\/nijAr6DrNitm8YevNEvRbki+pxV+UfuSp04Osq72pj890y7RtM\/iB8xjSPoBoFtkZhBc\/FX5kJv9LNwsi\/MjXszdleY6H\/cBe43xIOcavFnzlWwpYwn4T9lkppHtpGCtW8l7\/0JXWhptO8AsPVK9GxBnEAF4RQSG3VPOVy7XHV8YweaCYn4Kng5VXeiVpoKYVDj2Wzb7G3Fo+gnSi98UEUmHQWQFKI97+DqHPvhbl6z738rIRY\/dW7K9CW6XWLzgmsM\/2AjTYajklFY7lMYoO3IzX6bTRhhmPvV1eAz2qsbIzdDC1IUBEHiqDyvy7HifyUKkAS7YHKmYN8byu4iRMK8oDtHvx0XtuTav7J9cHRGhjyjPiTr\/8HKhu6hp9PrKq4Z1OFJv1Y9iVl9r8v9HyQ9q1hnYPHt5QdvQ03CKGQogwZUh3iuaILjesIZBQcfJI3iES1ukSSTqNtjdOH2OfglVvCdLeOOWbGPJIxDOLdeREKxnUwcOJ277QjQExfzBb2T8SwLassf03QteodneYLe0FN54vTnyViZHz+lslTyAwyy9h5g+RSQMyzHP0ZtENpXHB9F4HQB6DOoQf80cXW2fJaxUpLkrUhJQMksDYPIaPKWLnfAYVu+zdsNFoUUCRowVZLQd9uaWGoLIjA48uVGtEOenWwaHgx242h7wbLy9u7+qY92Kt9a5Xh8YGXWq4DrmDHTeeWtqalmBS5\/w+rzZlCFs5SoTI4+6\/77bW4mlGcwlB+fYeFkYCNt2b\/7FalsEVO0XX8K1vjdmfr2s2FbafFnmbJPRB2E6FE2QL6KDtQdglA\/WNnxv3bYcBr5s2pOBve4+pb57fOYobuVYK2Mq9QKZcHAP98j9yPZz\/jR7MwBKa0+ab9qBudZGObCqawr20waSz24S4BMIh7gd\/Ht66TtVFkoHP6gBFjZE0uwU5NApMYAGKLcw69LvPVQ7tGrv9Yy\/\/1z7UX6HHwpepbza1L+dxg9g3hzdaPxxd43OLpGI\/wXjHuk3CQa62UpGkC6W4lOlp\/84Vu0KbEhg+uvdGagoErWJoCuEmmfOUJO53Db7Wad4hwki65JLYpC19ylhXzmmfYs4H1Dl4\/malW8rn59t\/mXp8ZN5+2VzB\/xqlDEjdJtGbXMfb0EP3j\/Ivuv2w+tWLzZO\/KoXilvJZJlpZ0JsZd6CB50ShgXx5kBJ3rjs0uOhiYfNaNsXbKlyvPsRMIX4\/uzbIy5KVAkgDjEuEvGNCmXTUo2FXwvI+dmvhbrQbzrjt5hv3scdfffUtAydU\/8Z\/ewtm3icpL3whM15iAxmW5sweU3kOEeg5fu5HiUWdlml8SYefVATDoN1reeM6Idybv+hwtRYZ2sAtwyFh\/r3FSg\/Lh7g7iqgqqj7WQWmHbFc4RKYu7Wu6xSdm9GZQZJakG0rAzw8jX\/0H4SzHAdwn2nSYxlidhfuJP1HWAB3Cy1tXrymwh5zTMzTYPKYwejAGjWQvA65TVhm\/n1h3f\/vAiBRJi0dBxMJyyww6r0igpoDGyJg6RFUTtOxDc+2eefTOTFAPzu9jNnRWnTd2tfEREgDvfqUCvaoOcEC8JTJEdKx6hI2DpOSPGcvp5QbLfpkby9ah7Oz6i6MiRIpf8MNvy5371s0civ\/xDEjT8Lw+pJvIyUjWG48FrA6yObs5GNcxER6aZ3iTQ5C6M5sFQx24VauyM\/+vHe7YZSPCrm3FPS+pUzaxHIYTtB\/\/tQ4NmXOeNEdlr3JdoHvbD6vFYOWfPRuHloEBJwudwG+PpzX68xWuJRjq6Uzb9cabxQ6McXWACJWp3A6Bg5AhzQwUVAm7MojRnxnhodOkf51FfKEga7kDEou3P\/guR0rdl8j02QBU1uPo8h9D4p7fSYX9omYKEjh2lCKCIAGx7efW5HdujLm03WqTTH46IVXMbtxfgHH2pBfdUvTvrX+ldvQMQauwKYkNxFznhslfdyShZTRoax+TM3MkrmlWj9fuY2+5L\/618QfLvoQUvSy9GCrwKg9\/MYVhwUB53Jhs8BRnoVEj6SaATURC+3upa5d9Df9Bf1UaovYKZNmKxXpbZUulJK25cVUYVkFuJKZymb2qSMtL1p1A6C5D8vAm7RIqWAB9creBgYb4iDlZT9wBSu+nFZxk0XN+Pcjx9GwPKTJ+mT646cIjUvsrvp6pBN7AouD0Xf2yoGQ\/2XRdFICRNqJ4DL4tyrvZ1a9Gs1X4A4w2dlfGYvqau1CM6xsag8WkCm8s+0eigSHG7gBdo5hQiUorz5AJm88NdQoLbF4KPCmFPbUuDcUEJH9gbjFCl+AG4pmcAyFaFacMSzOJraCJnsPngipys7FS7nejOqk31d+DU+mIGIUOohEhzgiJ7QMJc98oO1zQ+Hq1zwDK7sQTWAC612ma00Dyf6SaVzVPruO6Vrhn58M42BEarNLK\/kaOtqYHfMsqI1Gw8cOQLWyV+60ctvRgLxOrHalwUkcPX9ia66oj0nGjnnNiTwjyrr4wPSRwci\/HJgpzRR2Sqwkb5s0awUgBwXqH7GtWtiI4kuPfA0idfIqIFL4IDhg2t9HtS1uvcXpQmLD25wUXuEfjxWAw1K3taaVoG2VTVlib87KnbKe5uf5FETheRktLQkSIFdvVN\/rh+KcFZlOxx4mMQRGLL1yd7CeNjAddu0PIKKHvlSv68mOsRlSjPF1Ycb6u2wUX8yRNvam13ypmO5XLQjPCk28vMoQMyddmSW0efHe99HbMkqO45M0EL8N+lLlmZJ1HTtPUkz6L82PZxEREZwuNVPuu2QkfddSwhZijioIvCXopMaISZLIIywTuwKD4a+7G5qY++FztKZ9O+4uwTGwSVD3eWCi7km\/J5BHZ1BPwoX0cBlf++iTGfSbbz4xiyi0lobI1bLeqZ9jtso8gx8KCQNmHzyYWP12fCr96IRX5c9\/gZZ95c9I80R6fFqdR70ebGUaV9la58CoEs+Xft0NJNmZKc\/RRUn9pLwSZ\/\/AU5CdmM1DaMwj7rDiUKhMdAwaGAx31bmdfIneDSCvf9uAz+80n6fjear3AipB\/V6amF24AwBDlcfq0qv7Y2z3JxJGmveNfk2pT+t5EVx3vkWi9eLeM\/g5lF\/3EoGoxQDwTCREnFOgkWZ8deieFwUFCWBqGEY6QKcvPsAxJHNLR7FQ1xZNr74iAMY2kS4vDcZU\/fVUbCBv2pLWKX94AQz32ICTOYN+pTFM58emmE1xFh1sVrqxuInMwr44FK1hEYSlG0mZubtWoE7MJ4zUA0j0bkpNCxVSwJkwzQguyHlVkhmTNoU48r\/CgZondWIy76o7dVPfXNhULdnPbqRQDK0R94kedt91o3yzul7eDqg6LNde1+MYuF2n9hm42YUcaNhvJ9\/BkKQ9Ad+LtXazLw9tEH9fOmWGvm27NQri1dpEUpwwYDjkSsp3c\/RjmSV1ApDXHMpAc1u0MhJ3agx6R42AjsNfAcHhkqH3tbB3OKsPW2J+DR3jt7x4GdRl2knY4zMEgWJM8HlwIx+0DSffyY+tlfTIMt1OTPJHFPv\/4MvTVPHRtVBvs5n7jjrJl3YTVw620BF4\/P\/m4TPskBDQEMuloBL4zuwz9\/Rf\/ug6lxsqoViPrhsyu1DvTqJ5JU6mg4KJ5BuvbdemDQ0jBggiemO+srBXE1NsWNNSl0J5K9q3PDfDTr6NIusG8cq6eqKFt8UHGsv3+0LtGQs3eFtn+i7tSpfcDtHCckn83IzFpUjU0yi+5qaYN2Kv6RCOC8Rzz1a3OQkTnEWgZsTaLTMdSx3e6PAuXG9S6IUzwaQUOQGBt2U9LlSvM5moAjI1EQ1i2Gcloxk4OCcjUJ9NWnv9BTx+T6SSdVlQZcHB5gICU2wLPcHXWEkbHNrgzNQsPy8RK6xy4iqUok+CCm6Q9c85pV2MxHpFAhT8\/9KYD\/cQM6WqgqqDjkLPGaEPKokwh8EsIDu5z5Hnr3WTat0MLuRA5yyvW9xQ9PxHdbgw9Km61dXNgHT53BQ0dgQVD7Er24Xnpdx7LXqiWE3ppRFxLixwnV8GJppmr4\/H8WE9py7U96qR5Xkns0mXeO2YBP6MbRV5oQ2\/Nptm75IE5rDVBpnJ7d6HQgb+Wfp+tkmh6kDmmIRlPGFRRti2UlWwxDhazkdhnQNfXUHnO\/30SGg5cHlJlIR6U\/QbTIiPvGtGxUJvdNYwK\/SFo4xK+vBVQzvIZkH\/Jpoz8Vch2LwjhCwj0Ln+XIWOSKaIoiJ4UuNXcwcxC3+1UR2fiom6b\/KvarQFkW+dNHRpnsjhxL4DKO\/73MuYLcGoXT4VaiTrNVuLwbWl68EWeqAxylk34RvtUug5jzUJ528NKvBtW6soWSpoIOcHam3Ik2L1Vb1I9QO7UXqVqhF2Py4o0UA6xthRuZIWjEs0qaECaRnaj1EVAEx1wMnrLp3vATbp5Y2NhJ0JkOaVckh\/Y0fArYdev\/XTNYtOqoJiqIlNiQBEhskPtxdH1d4\/10XOZAHuPhDCHMTjCgQVno14\/iae\/zkV2j5sCLw2ExmZ7qxaed2Jm6JYUgUWBw3TvuiCWYoctjf8RDoM6R6oUXehd5nSyV8lGx49LQaOy82kUvVQfVaXWkyBL2mawf6swufN+019n3ko\/6kzESoONE7b7xyheGTTeNItY7o8o",
+          'BG_IU': "\/\/www.google.com\/js\/bg\/CI_hqThbQjBwoUSK10cIsovHByRI4InaU0wolTzGCLU.js",
+
+
+
+        'COMMENTS_TOKEN': "EhYSC2pSaVFYOVRzaXlRwAEAyAEA4AEBGAY%3D",
+
+      'GET_PLAYER_EVENT_ID': "R6PoWeLyB5K_qQG3x6GIDw",
+      'HL_LOCALE': "fil_PH",
+      'TTS_URL': "",
+      'JS_DELAY_LOAD': 0,
+      'LIST_AUTO_PLAY_VALUE': 1,
+      'SHUFFLE_VALUE': 0,
+      'SKIP_RELATED_ADS': false,
+      'SKIP_TO_NEXT_VIDEO': false,
+      'CONVERSION_CONFIG_DICT': {},
+      'RESOLUTION_TRACKING_ENABLED': false,
+      'WATCH_LEGAL_TEXT_ENABLE_AUTOSCROLL': false,
+      'ADS_DATA': {"afv_vars":{"google_loeid":"9422596,9471235,9474594,9484938,9488991,23700497,23701005,23702700,23703455,23705778,23705906,23706155,23707713,23709257,23709584","google_pucrd":"CgYIABAAGAA","google_video_doc_id":"yt_jRiQX9TsiyQ","google_page_url":"http:\/\/www.youtube.com\/video\/jRiQX9TsiyQ","google_core_dbp":"ChZKMnNIOVdIQlNLckc2LW5tUktrbjlREAEgASgA","google_ad_client":"ca-pub-6219811747049371","google_language":"fi","google_cust_age":"","google_cust_gender":"","google_ad_host_tier_id":"6627525","google_scs":"","google_ad_host":"ca-host-pub-5683987065459176","google_ad_format":"300x250_as","google_eids":[],"google_ad_block":"2","google_targeting":"","google_lact":"-1","google_tag_for_child_directed_treatment":"","google_ad_type":"image","google_ad_height":"250","google_alternate_ad_url":"https:\/\/www.youtube.com\/ad_frame?id=watch-channel-brand-div","google_ad_channel":"0854550288+Vertical_12+Vertical_47+Vertical_806+afv_user_carjamradio+afv_user_id_UTD4hr_kXIwrZL5MKCjyOw+yt_cid_13170463+yt_mpvid_tkhTZrIl0MG2TAIp+yt_no_ap+yt_no_wa+ytdevice_1+ytdevicever_1.20171018+ytel_detailpage+ytps_default","google_yt_pt":"APb3F2_f69h7-AEc9ApsGADeKIEm9dnvEK-09AlqAgbZsYxRQmVhcZF6NqWa8y9FL7di-ldVquHHLXzf0WkW-jX89cfYbUYIJTDGONl02yW0gBHgOxSI3zRDO5cwTlwe3xezZifXo6Ucp6UO_SHH"},"afc_vars":{"alternate_ad_url":"https:\/\/www.youtube.com\/ad_frame?id=watch-channel-brand-div","video_doc_id":"yt_jRiQX9TsiyQ","eids":[],"targeting":"","ad_client":"ca-pub-6219811747049371","ad_block":"2","core_dbp":"ChZKMnNIOVdIQlNLckc2LW5tUktrbjlREAEgASgA","ad_type":"image","language":"fi","ad_channel":"0854550287+Vertical_12+Vertical_47+Vertical_806+afc_on_page+afv_user_carjamradio+afv_user_id_UTD4hr_kXIwrZL5MKCjyOw+yt_cid_13170463+yt_mpvid_tkhTZrIl0MG2TAIp+yt_no_ap+yt_no_wa+ytdevice_1+ytdevicever_1.20171018+ytel_detailpage+ytps_default","format":"300x250_as","lact":"-1","ad_host":"ca-host-pub-5683987065459176","loeid":"9422596,9471235,9474594,9484938,9488991,23700497,23701005,23702700,23703455,23705778,23705906,23706155,23707713,23709257,23709584","tag_for_child_directed_treatment":"","pucrd":"CgYIABAAGAA","ad_host_tier_id":"6627525"},"pyv_ad_tag":{"tag":"https:\/\/googleads.g.doubleclick.net\/pagead\/lopri?ad_block=3\u0026ad_type=text\u0026adk=511001906\u0026channel=PyvWatchInRelated%2BPyvWatchNoAdX%2BPyvYTWatch%2BYtLoPri%2Bafv_user_carjamradio%2Bafv_user_id_UTD4hr_kXIwrZL5MKCjyOw%2Bnon_lpw%2Bpw%2Byt_cid_13170463%2Byt_mpvid_tkhTZrIl0MG2TAIp%2Byt_no_ap%2Bytdevice_1%2Bytdevicever_1.20171018\u0026client=ca-pub-6219811747049371\u0026correlator=1508418375264\u0026dbp=ChZKMnNIOVdIQlNLckc2LW5tUktrbjlREAEgASgA\u0026ea=0\u0026eae=2\u0026hl=fi\u0026host=ca-host-pub-5683987065459176\u0026ht_id=6627525\u0026isw=0\u0026ish=0\u0026lact=-1\u0026loc=EMPTY\u0026loeid=9422596,9471235,9474594,9484938,9488991,23700497,23701005,23702700,23703455,23705778,23705906,23706155,23707713,23709257,23709584\u0026num_ads=1\u0026output=js\u0026pucrd=CgYIABAAGAA\u0026pyv=1\u0026top=https%3A\/\/www.youtube.com\/watch%3Fv%3DjRiQX9TsiyQ%26app%3Ddesktop\u0026url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FjRiQX9TsiyQ\u0026video_doc_id=yt_jRiQX9TsiyQ\u0026ytdevicever=ytdevicever_1.20171018\u0026yt_pt=APb3F2-7tfVfNTwyIh16doe2YHs8zAJNeSNCmZpXPsKSXKQA9vdPn73DKE3n1k6IjxZAyLVLFOZdnPTknGJURPSnkpHU4BYGY0MiMiuuiOfxsRuRzH-ExDG1OW4SE8-JPNEwhIqlWqccoauduZI2"},"show_afv":true,"gut_vars":{"tag":"\/4061\/ytpwatch"},"show_pyv":true,"use_gut":true,"show_afc":false,"check_status":false,"show_instream":true},
+      'PLAYBACK_ID': "AAVb5gVuhPAa-AMq",
+      'IS_DISTILLER': true,
+      'SHARE_CAPTION': null,
+      'SHARE_REFERER': "",
+      'PLAYLIST_INDEX': null
+    });
+
+      yt.pushConfigArray('TIMING_WAIT', 'parn');
+
+    yt.setMsg({
+      'EDITOR_AJAX_REQUEST_FAILED': "May nangyaring mali sa pagkuha ng data mula sa server. Subukang muli, o i-reload ang pahina.",
+      'EDITOR_AJAX_REQUEST_503': "Hindi available ang pagpapaganang ito sa ngayon. Pakisubukang muli sa ibang pagkakataon.",
+      'LOADING': "Naglo-load..."    });
+
+
+    
+
+
+
+
+
+
+
+    
+
+      yt.setConfig({
+    'GUIDED_HELP_LOCALE': "fil_PH",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+
+  </script>
+
+
+<script>yt.setConfig({INNERTUBE_API_KEY: "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",GAPI_HINT_PARAMS: "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.CMK08v540qY.O\/m=__features__\/am=AAg\/rt=j\/d=1\/rs=AHpOoo-zuYXPOIuiHXsKOXE2DwZ06yC48g",INNERTUBE_CONTEXT_CLIENT_NAME: 1,APIARY_HOST: "",XHR_APIARY_HOST: "youtubei.youtube.com",INNERTUBE_API_VERSION: "v1",APIARY_HOST_FIRSTPARTY: "",INNERTUBE_CONTEXT_CLIENT_VERSION: "1.20171018",'VISITOR_DATA': "CgtBYWktaGNUUE54OA%3D%3D",'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_LOCALE': "fil_PH",'INNERTUBE_CONTEXT_HL': "fil",'INNERTUBE_CONTEXT_GL': "PH",'XHR_APIARY_HOST': "youtubei.youtube.com"});yt.setConfig({'ROOT_VE_CHILDREN': ["CAEQ7VAiEwiisrCr4PzWAhWSXyoKHbdjCPEo-B0","CAIQpmEiEwiisrCr4PzWAhWSXyoKHbdjCPEo-B0"],});yt.setConfig({'PAGE_NAME': "watch",'LOGGED_IN': false,'SESSION_INDEX': null,'VALID_SESSION_TEMPDATA_DOMAINS': ["www.youtube.com","gaming.youtube.com"],'PARENT_TRACKING_PARAMS': "",'FORMATS_FILE_SIZE_JS': ["%s B","%s KB","%s MB","%s GB","%s TB"],'DELEGATED_SESSION_ID': null,'ONE_PICK_URL': "",'UNIVERSAL_HOVERCARDS': false,'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'PAGEFRAME_JS': "\/yts\/jsbin\/www-pageframe-vfl1k78kv\/www-pageframe.js",'GAPI_LOADER_URL': "\/yts\/jsbin\/www-gapi-loader-vflRib08t\/www-gapi-loader.js",'JS_COMMON_MODULE': "\/yts\/jsbin\/www-en_US-vfliJm6pm\/common.js",'PAGE_FRAME_DELAYLOADED_CSS': "\/yts\/cssbin\/www-pageframedelayloaded-webp-vfl7UdmUR.css",'EXPERIMENT_FLAGS': {"app_settings_snapshot_min_time_between_snapshots_hours":24,"web_gel_lact":true,"web_always_load_chat_support":true,"service_worker_push_logged_out_prompt_watches":-1,"enable_firefox_push_notifications":true,"live_chat_message_sampling_rate":1.0,"same_domain_static_resources_desktop":true,"service_worker_push_force_notification_prompt_tag":"1","cancel_pending_navs":true,"log_web_meta_interval_ms":0,"player_swfcfg_cleanup":true,"live_chat_busyness_sampling_floor":2.0,"web_logging_max_batch":100,"youtubei_for_web":true,"log_foreground_heartbeat":true,"block_spf_search_ads_impressions":true,"app_settings_snapshot_is_logging_enabled":true,"autoescape_tempdata_url":true,"live_chat_top_chat_entry_threshold":2.0,"service_worker_scope":"\/","enable_more_related_ve_logging":true,"clear_web_implicit_clicktracking":true,"custom_emoji_main_app":true,"cold_load_nav_start_web":true,"live_chat_top_chat_split":0.5,"live_chat_busyness_enabled":true,"live_chat_busyness_sampling_center":20.0,"autoplay_pause_sampling_fraction":0.0,"desktop_notification_set_title_bar":true,"custom_emoji_legacy":true,"debug_forced_promo_id":"","log_window_onerror_fraction":0.1,"interaction_logging_on_gel_web":true,"gfeedback_for_signed_out_users_enabled":true,"log_web_screen_end":true,"custom_emoji_super_chat":true,"enable_playlist_visibility":true,"custom_emoji_desktop":true,"dark_launch_live_chat_replay":true,"desktop_pyv_on_watch_missing_params":true,"live_chat_flagging_reasons":true,"live_chat_replay_milliqps_threshold":5000,"desktop_notification_high_priority_ignore_push":true,"enable_logging_directives_desktop":true,"remove_web_visibility_batching":true,"desktop_pyv_on_watch_override_lact":true,"enable_server_side_search_pyv":true,"service_worker_push_home_only":true,"chat_smoothing_animations":84,"autoplay_pause_by_lact_sec":0,"service_worker_push_home_page_prompt":true,"watch_next_pause_autoplay_lact_sec":0,"optimistically_create_transport_client":true,"desktop_pyv_on_watch_via_valor":true,"live_chat_message_sampling_method":"","desktop_polymer":true,"consent_url_override":"","live_chat_busyness_sampling_ceil":10.0,"live_chat_busyness_sampling_steepness":1.0,"enable_youtubei_innertube":true,"service_worker_push_prompt_cap":-1,"sponsors_whitelist_creator":true,"custom_emoji_creator":true,"service_worker_push_prompt_delay_ms":3888000000,"live_chat_top_chat_window_length_sec":3,"use_watch_fragments2":true,"autoplay_pause_by_lact_sampling_fraction":0.0,"enable_afv_div_reset_in_kevlar":true,"enable_gaming_new_logo":true,"service_worker_push_enabled":true,"botguard_periodic_refresh":true,"comment_deep_link":true,"live_chat_inline_moderation":true,"service_worker_enabled":true,"web_system_health_fraction":0.01,"warm_load_nav_start_web":true,"use_push_for_desktop_live_chat":true},'GUIDE_DELAY_LOAD': true,'GUIDE_DELAYLOADED_CSS': "\/yts\/cssbin\/www-guide-webp-vflywcJI9.css",'GUIDED_HELP_PARAMS': {"logged_in":"0"},'HIGH_CONTRAST_MODE_CSS': "\/yts\/cssbin\/www-highcontrastmode-webp-vflHWedJm.css",'PREFETCH_LINKS': false,'PREFETCH_LINKS_MAX': 1,'PREFETCH_AUTOPLAY': false,'PREFETCH_AUTOPLAY_TIME': 0,'PREFETCH_AUTONAV': false,'PREBUFFER_MAX': 1,'PREBUFFER_LINKS': false,'PREBUFFER_AUTOPLAY': false,'PREBUFFER_AUTONAV': false,'WATCH_LATER_BUTTON': "\n\n  \u003cbutton class=\"yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip\" type=\"button\" onclick=\";return false;\" role=\"button\" title=\"Panoorin sa ibang pagkakataon\" data-video-ids=\"__VIDEO_ID__\" data-button-menu-id=\"shared-addto-watch-later-login\"\u003e\u003cspan class=\"yt-uix-button-arrow yt-sprite\"\u003e\u003c\/span\u003e\u003c\/button\u003e\n",'WATCH_QUEUE_BUTTON': "  \u003cbutton class=\"yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip\" type=\"button\" onclick=\";return false;\" title=\"Queue\" data-video-ids=\"__VIDEO_ID__\" data-style=\"tv-queue\"\u003e\u003c\/button\u003e\n",'WATCH_QUEUE_MENU': "  \u003cspan class=\"thumb-menu dark-overflow-action-menu video-actions\"\u003e\n    \u003cbutton class=\"yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon no-icon-markup yt-uix-button-empty\" type=\"button\" onclick=\";return false;\" aria-haspopup=\"true\" aria-expanded=\"false\" \u003e\u003cspan class=\"yt-uix-button-arrow yt-sprite\"\u003e\u003c\/span\u003e\u003cul class=\"watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu hid\"\u003e\u003cli role=\"menuitem\" class=\"overflow-menu-choice addto-watch-queue-menu-choice addto-watch-queue-play-next yt-uix-button-menu-item\" data-action=\"play-next\" onclick=\";return false;\"  data-video-ids=\"__VIDEO_ID__\"\u003e\u003cspan class=\"addto-watch-queue-menu-text\"\u003eI-play ang susunod\u003c\/span\u003e\u003c\/li\u003e\u003cli role=\"menuitem\" class=\"overflow-menu-choice addto-watch-queue-menu-choice addto-watch-queue-play-now yt-uix-button-menu-item\" data-action=\"play-now\" onclick=\";return false;\"  data-video-ids=\"__VIDEO_ID__\"\u003e\u003cspan class=\"addto-watch-queue-menu-text\"\u003eI-play ngayon\u003c\/span\u003e\u003c\/li\u003e\u003c\/ul\u003e\u003c\/button\u003e\n  \u003c\/span\u003e\n",'SAFETY_MODE_PENDING': false,'I18N_PLURAL_RULES': function(n) { return (n == parseInt(n, 10) && 0 <= n && n <= 1) ? 'one' : 'other'; },'ZWIEBACK_PING_URLS': ["https:\/\/www.google.com.ph\/pagead\/lvz?evtid=AHTCIYeyu-d_cT2AetxQSAFARffHt7r43_3pikUdjSTe9EFw9ZLY41JgaP4oBRyRlzEW4nqalkXwjn7W7QuSrgyGO5Nzkj-wlQ\u0026pg=watch\u0026req_ts=1508418375\u0026sigh=AK-2CR50xBy29g_IuoQ8dc_LbCVEyUtJEQ"],'LOCAL_DATE_TIME_CONFIG': {"weekdays":["Linggo","Lunes","Martes","Miyerkules","Huwebes","Biyernes","Sabado"],"amPms":null,"formatShortTime":"H:mm","dateFormats":["MMMM d, yyyy 'nang 'H:mm","MMMM d, yyyy","MMM d, yyyy","MMM d, yyyy"],"firstWeekCutoffDay":3,"shortWeekdays":["Lin","Lun","Mar","Miy","Huw","Biy","Sab"],"shortMonths":["Ene","Peb","Mar","Abr","May","Hun","Hul","Ago","Set","Okt","Nob","Dis"],"formatShortDate":"MMM d, yyyy","formatLongDate":"MMMM d, yyyy 'nang 'H:mm","formatWeekdayShortTime":"EE H:mm","weekendRange":[6,5],"formatLongDateOnly":"MMMM d, yyyy","firstDayOfWeek":0,"months":["Enero","Pebrero","Marso","Abril","Mayo","Hunyo","Hulyo","Agosto","Setyembre","Oktubre","Nobyembre","Disyembre"]},'PAGE_CL': 172568519,'PAGE_BUILD_LABEL': "youtube.ytfe.desktop_20171018_0_RC0",'VARIANTS_CHECKSUM': "e52440cc6f1ab0e80a7455dc8dcd723d",'CLIENT_PROTOCOL': "HTTP\/1.1",'CLIENT_TRANSPORT': "tcp",'MDX_ENABLE_CASTV2': true,'MDX_ENABLE_QUEUE': true,'FEEDBACK_BUCKET_ID': "Watch",'FEEDBACK_LOCALE_LANGUAGE': "fil",'FEEDBACK_LOCALE_EXTRAS': {"accept_language":null,"logged_in":false,"experiments":"23700014,23700266,23700271,23700361,23700497,23700503,23700732,23700784,23701005,23701019,23701221,23701297,23701476,23701664,23701698,23701882,23702018,23702077,23702138,23702322,23702459,23702507,23702513,23702700,23702945,23703024,23703213,23703455,23703645,23703820,23703915,23703975,23704080,23704248,23704304,23704316,23704466,23704555,23704578,23704792,23705057,23705141,23705192,23705240,23705485,23705716,23705739,23705778,23705866,23705906,23705956,23706001,23706129,23706155,23706217,23706383,23706594,23706596,23706783,23706844,23706846,23706864,23706875,23706932,23707097,23707100,23707150,23707251,23707258,23707713,23707737,23707783,23707788,23707888,23708103,23708627,23708948,23709257,23709349,23709442,23709584,9415398,9419979,9420289,9422596,9431754,9432939,9438309,9440054,9441194,9442387,9442746,9448302,9449243,9451814,9453167,9453409,9456445,9456628,9457114,9457169,9459793,9459799,9460350,9460554,9460829,9460959,9463460,9463594,9463936,9463963,9464887,9465513,9467471,9467502,9467508,9467510,9467512,9467655,9467795,9467806,9467820,9467822,9467848,9468195,9469934,9470040,9470791,9471103,9471235,9471264,9471536,9471955,9472191,9473373,9473385,9473389,9473977,9474396,9474594,9475218,9475460,9476026,9476077,9476327,9476747,9477401,9477419,9477905,9478787,9479200,9479354,9479456,9479749,9479958,9480013,9480071,9480312,9480317,9480337,9480371,9480475,9480550,9480710,9481214,9481220,9481500,9482003,9482973,9482998,9483190,9483245,9483308,9483512,9483583,9483589,9483718,9483858,9484088,9484237,9484938,9484996,9485000,9486160,9486390,9486443,9486540,9487037,9487329,9487434,9487458,9487532,9487622,9487777,9487955,9488038,9488215,9488257,9488272,9488552,9488615,9488991,9488995,9489074,9489224,9489266,9489277,9489315,9489331,9489336,9489452,9489700"}});   yt.setConfig({
+    'GUIDED_HELP_LOCALE': "fil_PH",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+yt.setConfig('SPF_SEARCH_BOX', true);yt.setMsg({'ADDTO_CREATE_NEW_PLAYLIST': "Gumawa ng bagong playlist\n",'ADDTO_CREATE_PLAYLIST_DYNAMIC_TITLE': "  $dynamic_title_placeholder (gumawa ng bago)\n",'ADDTO_WATCH_LATER': "Watch later",'ADDTO_WATCH_LATER_ADDED': "Idinagdag",'ADDTO_WATCH_LATER_ERROR': "Error",'ADDTO_WATCH_QUEUE': "Watch Queue",'ADDTO_WATCH_QUEUE_ADDED': "Idinagdag",'ADDTO_WATCH_QUEUE_ERROR': "Error",'ADDTO_TV_QUEUE': "Queue",'ADS_INSTREAM_FIRST_PLAY': "May nagpe-play na video ad.",'ADS_INSTREAM_SKIPPABLE': "Maaaring laktawan ang video ad.",'ADS_OVERLAY_IMPRESSION': "Nagpapakita ng ad.",'MASTHEAD_NOTIFICATIONS_LABEL': {"one": "# hindi pa nabasang notification.", "case0": "0 hindi pa nabasang notification.", "case1": "1 hindi pa nabasang notification.", "other": "# na hindi pa nabasang notification."},'MASTHEAD_NOTIFICATIONS_COUNT_99PLUS': "99+",'MDX_AUTOPLAY_OFF': 'Naka-off ang autoplay','MDX_AUTOPLAY_ON': 'Naka-on ang autoplay'});  yt.setConfig('FEED_PRIVACY_CSS_URL', "\/yts\/cssbin\/www-feedprivacydialog-webp-vflBHB6eD.css");
+  yt.setConfig('FEED_PRIVACY_LIGHTBOX_ENABLED', true);
+yt.setConfig({'SBOX_JS_URL': "\/yts\/jsbin\/www-searchbox-legacy-vflY7WsF8\/www-searchbox-legacy.js",'SBOX_SETTINGS': {"HAS_ON_SCREEN_KEYBOARD":true,"PSUGGEST_TOKEN":null,"REQUEST_LANGUAGE":"fil","PQ":"","SESSION_INDEX":null,"REQUEST_DOMAIN":"ph","IS_FUSION":false,"SUGG_EXP_ID":""},'SBOX_LABELS': {"SUGGESTION_DISMISSED_LABEL":"Na-dismiss ang suhestiyon","SUGGESTION_DISMISS_LABEL":"Alisin"}});  yt.setConfig({
+    'YPC_LOADER_JS': "\/yts\/jsbin\/www-ypc-vflR8V8Dd\/www-ypc.js",
+    'YPC_LOADER_CSS': "\/yts\/cssbin\/www-ypc-webp-vfl4k5UNW.css",
+    'YPC_SIGNIN_URL': "https:\/\/accounts.google.com\/ServiceLogin?service=youtube\u0026hl=fil\u0026passive=true\u0026continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Fnext%3D%252F%26hl%3Dfil%26action_handle_signin%3Dtrue%26app%3Ddesktop\u0026uilel=3",
+    'DBLCLK_ADVERTISER_ID': "2542116",
+    'DBLCLK_YPC_ACTIVITY_GROUP': "youtu444",
+    'SUBSCRIPTION_URL': "\/subscription_ajax",
+    'YPC_SWITCH_URL': "\/signin?feature=purchases\u0026next=%2F\u0026action_handle_signin=true\u0026skip_identity_prompt=True",
+    'YPC_GB_LANGUAGE': "fil_PH",
+    'YPC_MB_URL': "https:\/\/payments.youtube.com\/payments\/v4\/js\/integrator.js?ss=md",
+    'YPC_TRANSACTION_URL': "\/transaction_handler",
+    'YPC_SUBSCRIPTION_URL': "\/ypc_subscription_ajax",
+    'YPC_POST_PURCHASE_URL': "\/ypc_post_purchase_ajax",
+    'YTR_FAMILY_CREATION_URL': "https:\/\/families.google.com\/webcreation?usegapi=1",
+    'YTO_GTM_DATA': {'event': 'purchased', 'purchaseStatus': 'success'},
+    'YTO_GTM_1_BUTTON_CLICK_DATA': {'event': 'landingButtonClick', 'buttonPosition': '1'},
+    'YTO_GTM_2_BUTTON_CLICK_DATA': {'event': 'landingButtonClick', 'buttonPosition': '2'}
+  });
+  yt.setMsg({
+    'YPC_OFFER_OVERLAY': "  \n",
+    'YPC_UNSUBSCRIBE_OVERLAY': "  \n"
+  });
+  yt.setConfig('GOOGLE_HELP_CONTEXT', "watch");
+ytcsi.info('st', 443);ytcfg.set({"CSI_SERVICE_NAME":"youtube","TIMING_INFO":{"cver":"1.20171018","yt_li":"0","c":"WEB","yt_ad_an":"afv,dclk","GetPlayer_rid":"0x0b688418858ec030","yt_ad_pr":1,"yt_pl":0,"GetWatchNext_rid":"0x0b688418858ec030","yt_ad":1,"yt_lt":"cold","yt_ref":"watch"}});;ytcfg.set({"CSI_VIEWPORT":true,"TIMING_ACTION":"watch,watch7ad_html5"});;  yt.setConfig({
+      'XSRF_TOKEN': "QUFFLUhqbjRoTlJyOUwyNWJzWFRMSTVYQzI0N3JjNXVJd3xBQ3Jtc0trVVJHTE9Ec0xQdXh3SWpITGEteGdQajNpcENmQUVKOVFhMGQ3SUFfdk5iVWh4VFRYZkZJQS0zZjVrNWZpeE9BT1pZcFg4WFYzeXVUYTdMd0lhenBRRXFlU3BLdkZlMnlkRmtTU3VhSDhTX2xhbEVtZEt2eHM5bHdWYXA2b0pPR2RtajRYSjg2RDdOSmRNY1RsbGI5a1BaUEVtS2c=",
+      'XSRF_FIELD_NAME': "session_token",
+
+      'XSRF_REDIRECT_TOKEN': "ny5WKQD_s4YVzBSr6UrWxfTvytN8MTUwODUwNDc3NUAxNTA4NDE4Mzc1"  });
+yt.setConfig('ID_TOKEN', null);window.ytcfg.set('SERVICE_WORKER_KILLSWITCH', false);  yt.setConfig('THUMB_DELAY_LOAD_BUFFER', 0);
+if (window.ytcsi) {window.ytcsi.tick("jl", null, '');}</script>
+</body></html>

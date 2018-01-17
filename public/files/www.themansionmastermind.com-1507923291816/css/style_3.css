@@ -1,0 +1,21 @@
+.about-top{
+    margin-top: 80px;
+}
+.about-mid{
+    margin-top: 80px;
+}
+.profile{
+    text-align: center;
+}
+.profile img{
+    max-width: 300px;
+    border-radius: 100%;
+    border: 5px solid #e7e7e7;
+    background-color: #e7e7e7;
+}
+.profile h2{
+    color: #fff;
+}
+.profile p{
+    color: #fff;
+}

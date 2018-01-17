@@ -1,0 +1,49 @@
+.about-top{
+    margin-top: 80px;
+}
+.about-mid{
+    margin-top: 80px;
+}
+.profile{
+    text-align: center;
+}
+.profile img{
+    max-width: 300px;
+    border-radius: 100%;
+    border: 5px solid #e7e7e7;
+    background-color: #e7e7e7;
+}
+.profile h2{
+    color: #fff;
+}
+.profile p{
+    color: #fff;
+}
+
+#updateapimodal{
+    z-index: 9999;
+}
+#contact-popup{
+    margin: 0px auto;
+    margin-top: 100px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #fff;
+    background-size: cover;
+    position: absolute;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+#contact-modal iframe{
+    margin-top: 50px;
+}
+#contact-modal .closeLPModal{
+    top: -20px;
+}
+@media handheld, only screen and (max-width: 767px){
+    .side-right{
+        display: none;
+    }
+}
